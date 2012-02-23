@@ -1,0 +1,8 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.similaire-image img {
+	width:100%;
+	height:auto;
+	padding:2% !important;
+}
