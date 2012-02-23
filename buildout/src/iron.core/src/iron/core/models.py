@@ -1,5 +1,6 @@
 #coding: utf-8
 from django.db import models
+from iron.core.util import time_guesser
 
 class Categorie(models.Model):
     UID = models.CharField(max_length=200)
@@ -7,9 +8,10 @@ class Categorie(models.Model):
     PARENT = models.ForeignKey('self', null=True)
 
 class Evenement(models.Model):
+
     UID = models.CharField(max_length=200)
 
-    CATEGORIE_EVENEMENT = models.ForeignKey(Categorie) 
+    CATEGORIE_EVENEMENT = models.ForeignKey(Categorie)
 
     TITRE_EVENEMENT = models.CharField(max_length=100)
     DEBUT_EVENEMENT = models.DateField()
@@ -27,6 +29,11 @@ class Evenement(models.Model):
     COMPLEMENT_LIEU_EVENEMENT = models.CharField(max_length=100, null=True)
     ADRESSE_EVENEMENT = models.CharField(max_length=100, null=True)
     NOM_ARRONDISSEMENT = models.CharField(max_length=100)
+
+    def guess_time_range(self):
+        return time_guesser.guess_time(self.HORAIRE_EVENEMENT)
+
+
 '''
 <CATEGORIE_EVENEMENT>Activité familiale</CATEGORIE_EVENEMENT>
 <TITRE_EVENEMENT>Michael Jackson, The Immortal World Tour</TITRE_EVENEMENT>
