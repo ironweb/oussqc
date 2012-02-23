@@ -111,11 +111,6 @@ MIDDLEWARE_CLASSES = (
 ROOT_URLCONF = 'iron.project.urls'
 
 
-LOGIN_URL = '/login/'
-LOGOUT_URL = '/logout/'
-LOGIN_REDIRECT_URL = '/accounts/profile/'
-
-
 TEMPLATE_DIRS = (
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.

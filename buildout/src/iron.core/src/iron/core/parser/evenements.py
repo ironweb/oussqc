@@ -1,10 +1,10 @@
 import xml.dom.minidom
 import json
 import sys
+sys.path.append('/home/sylvain/rouges/buildout/core/parser')
 
 import qcparser
 
-import sys
 from pprint import pprint
 
 class EvenementParser(qcparser.SimpleParser):

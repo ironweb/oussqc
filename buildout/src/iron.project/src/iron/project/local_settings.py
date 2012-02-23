@@ -1,11 +1,11 @@
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
-MEDIA_ROOT = '/home/socodevi/branches/dev1/www/media/'
+MEDIA_ROOT = '/home/sylvain/rouges/www/media/'
 MEDIA_URL = 'http://dev1.socodevi.l3i.ca/'
 STATIC_ROOT = ''
-STATIC_URL = 'http://dev1.socodevi.l3i.ca/static/'
-ADMIN_MEDIA_PREFIX = 'http://dev1.socodevi.l3i.ca/adminmedia/'
-ADMIN_TOOLS_MEDIA_URL = 'http://dev1.socodevi.l3i.ca/'
+STATIC_URL = 'http://s1.www.sylvain.l3i.ca/rouges/'
+#ADMIN_MEDIA_PREFIX = 'http://dev1.socodevi.l3i.ca/adminmedia/'
+#ADMIN_TOOLS_MEDIA_URL = 'http://dev1.socodevi.l3i.ca/'
 
 DATABASES = {
     'default': {
