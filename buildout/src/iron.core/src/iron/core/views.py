@@ -4,6 +4,8 @@ from django.core import serializers
 from django.template import RequestContext
 from iron.core.models import Evenement, Categorie
 
+from django.db.models import Q
+
 from django.shortcuts import render_to_response
 
 json = serializers.get_serializer("json")()
@@ -67,8 +69,27 @@ def eventsearch(request):
 
     query = Evenement.objects
 
+    keyword_fields = [
+        'TITRE_EVENEMENT',
+        'DESCRIPTION_EVENEMENT',
+        'NOMLIEU_EVENEMENT',
+        'COMPLEMENT_LIEU_EVENEMENT',
+    ]
+
     if 'district' in request.GET:
         query = query.filter(NOM_ARRONDISSEMENT = request.GET['district'])
+
+    if 'keyword' in request.GET:
+
+        term = request.GET['keyword']
+
+        field = keyword_fields.pop() + "__contains"
+
+        condition = Q(**{field: term})
+        for field in keyword_fields:
+            condition = condition | Q(**{field + "__contains":term})
+
+        query = query.filter(condition)
 
     evenements = query.all()
 
