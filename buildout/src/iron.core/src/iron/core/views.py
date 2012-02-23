@@ -1,5 +1,5 @@
 #coding: utf-8
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseBadRequest
 from django.core import serializers
 from django.template import RequestContext
 from iron.core.models import Evenement, Categorie
@@ -106,6 +106,29 @@ def eventsearch(request):
         query = query.filter(condition)
 
     evenements = query.all()
+
+    serializer = serializers.get_serializer("json")()
+    data = serializer.serialize(evenements)
+    return HttpResponse(data)
+
+def eventradius(request):
+
+    sql = """
+    SELECT * FROM core_evenement WHERE
+     ( 3959 * acos( cos( radians(%s) ) * cos( radians( LATITUDE ) )
+      * cos( radians(LONGITUDE) - radians(%s)) + sin(radians(%s))
+      * sin( radians(LATITUDE)))) <= %s
+    """
+    if 'latitude' not in request.GET and 'longitude' not in request.GET:
+        return HttpResponseBadRequest('must pass latitude and longitude')
+
+    latitude = float(request.GET['latitude'])
+    longitude = float(request.GET['longitude'])
+    km = float(request.GET['km'])
+
+    print [latitude, longitude, latitude, km]
+
+    evenements = Evenement.objects.raw( sql, [latitude, longitude, latitude, km] )
 
     serializer = serializers.get_serializer("json")()
     data = serializer.serialize(evenements)

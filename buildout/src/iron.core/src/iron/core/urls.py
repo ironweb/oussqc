@@ -1,5 +1,8 @@
 from django.conf.urls.defaults import patterns, url, include
 
+from views import zone_view, category_view
+
+urlpatterns = patterns('',
 
 urlpatterns = patterns('iron.core.views',
     ('^$', 'home'),
@@ -7,7 +10,8 @@ urlpatterns = patterns('iron.core.views',
     ('^list/$', 'results'),
     ('^activite/$', 'activite'),
 
-    #url('^category/$', category_view),
-    #url('^zone/$', zone_view),
+    (r"^evenements/$", 'iron.core.views.evenements'),
+    (r"^evenements/search/$", 'iron.core.views.eventsearch'),
 
-)
+   )
+
