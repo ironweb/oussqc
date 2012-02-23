@@ -1,11 +1,11 @@
 import xml.dom.minidom
-from pprint import pprint
 import json
 import sys
-sys.path.append('/home/sylvain/rouges/buildout/core/parser')
+
 import qcparser
-from iron.core.models import Evenement
-#print Evenement
+
+import sys
+from pprint import pprint
 
 class EvenementParser(qcparser.SimpleParser):
 
@@ -55,12 +55,30 @@ class EvenementParser(qcparser.SimpleParser):
 
 if __name__ == "__main__":
 
-    f = open("/home/sylvain/rouges/data/evenement_formatted.xml", "r")
+    from iron.core.models import Evenement, Categorie
+    from iron.core.parser.categories import CategoryParser
+
+    if len(sys.argv) <= 1:
+        print "USAGE: %s XML_FILE" % sys.argv[0]
+        sys.exit(1)
+
+    filepath = sys.argv[1]
+    f = open(filepath, 'r')
     parser = EvenementParser()
-    #pprint( parser.parse( f.read() ) )
+    category_parser = CategoryParser()
 
+    evenements = parser.parse( f.read() )
+    categories = category_parser.categorie_evenements(evenements)
 
-    for e in parser.parse( f.read() ):
+    for category in categories:
+        if Categorie.objects.filter(UID=category).count() == 0:
+            model = Categorie()
+            model.UID = category
+            model.save()
+        print category
+
+    for e in evenements:
+
         E = Evenement()
 
         E.TITRE_EVENEMENT = e['titre']
@@ -77,6 +95,7 @@ if __name__ == "__main__":
         E.COMPLEMENT_LIEU_EVENEMENT = e['complement_lieu']
         E.ADRESSE_EVENEMENT = e['adresse']
         E.NOM_ARRONDISSEMENT = e['arondissement']
+        E.CATEGORIE_EVENEMENT = Categorie.objects.get(UID=e['categorie'])
 
         if len(e['telephones']) > 0:
             E.TEL1_EVENEMENT = e['telephones'][0]
@@ -107,5 +126,4 @@ if __name__ == "__main__":
  'complement_lieu': None
  'fin': u'2012-03-25'
  'description': u'Con\xe7ue et mise en sc\xe8ne par Jamie King
- cette production historique unique en son genre combine la musique et les chor\xe9graphies de Michael Jackson au savoir-faire cr\xe9atif du\xa0Cirque du Soleil en rassemblant une soixantaine d\u2019artistes provenant de partout dans le monde. '}
- '''
+ cette production historique unique en son genre combine la musique et les chor\xe9graphies de Michael Jackson au savoir-faire cr\xe9atif du\xa0Cirque du Soleil en rassemblant une soixantaine d\u2019artistes provenant de partout dans le monde. '} '''
