@@ -30,6 +30,9 @@ class Evenement(models.Model):
     ADRESSE_EVENEMENT = models.CharField(max_length=100, null=True)
     NOM_ARRONDISSEMENT = models.CharField(max_length=100)
 
+    LATITUDE = models.DecimalField(null=True,decimal_places=8,max_digits=10)
+    LONGITUDE = models.DecimalField(null=True,decimal_places=8,max_digits=10)
+
     def guess_time_range(self):
         return time_guesser.guess_time(self.HORAIRE_EVENEMENT)
 
