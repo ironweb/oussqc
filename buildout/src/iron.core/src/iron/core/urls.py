@@ -13,6 +13,7 @@ urlpatterns = patterns('',
     ('^search/$', 'iron.core.views.search_view'),
 
     (r"^evenements/$", 'iron.core.views.evenements'),
+    (r"^evenements/search/$", 'iron.core.views.eventsearch'),
     ('^screen/(\d+)$', 'iron.core.views.screen'),
 )
 

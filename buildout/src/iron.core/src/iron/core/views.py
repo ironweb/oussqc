@@ -62,3 +62,17 @@ def evenements(request):
     data = serializer.serialize(objects)
     return HttpResponse(data)
 
+
+def eventsearch(request):
+
+    query = Evenement.objects
+
+    if 'district' in request.GET:
+        query = query.filter(NOM_ARRONDISSEMENT = request.GET['district'])
+
+    evenements = query.all()
+
+    serializer = serializers.get_serializer("json")()
+    data = serializer.serialize(evenements)
+    return HttpResponse(data)
+
