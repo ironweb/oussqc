@@ -1,5 +1,5 @@
 #coding: utf-8
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseBadRequest
 from django.core import serializers
 from django.template import RequestContext
 from iron.core.models import Evenement, Categorie
@@ -20,33 +20,32 @@ ARR = (
     'Sainte-Foy–Sillery–Cap-Rouge'
 )
 
-from constantes import ZONES
 
-def zone_view(request):
-    return render_to_response('arrondissement.html')
+def home(request):
+    return render_to_response('home.html')
 
-def category_view(request):
+def category(request):
     qs = Categorie.objects.all().order_by('UID')
     d = {'categories' : qs}
     c = RequestContext(request, d)
     return render_to_response('category.html', c)
 
-def results(request, mode='list'):
-    from django.conf import settings
-    d = {'settings' : settings}
+def results(request, mode='liste'):
+
+    d = {}
     qs_evenements = Evenement.objects.all()[:10]
     d['evenements'] = qs_evenements
     c = RequestContext(request, d)
-    return render_to_response('liste.html', c)
+
+    # liste ou map
+    return render_to_response(mode+'.html', c)
 
 def activite(request):
-    from django.conf import settings
-    d = {'settings' : settings}
-    c = RequestContext(request, d)
+    c = RequestContext(request)
     return render_to_response('activite.html', c)
 
 
-def search_view(request, categorie_id=None):
+def search(request, categorie_id=None):
 
     qs = Categorie.objects.all().order_by('UID')
     qs_evenements = Evenement.objects.all()
@@ -122,5 +121,27 @@ def quartiers(request, arr_index):
     quartiers = ZONES[arr_index]
     import json
     data = json.dumps(quartiers)
+
+def eventradius(request):
+
+    sql = """
+    SELECT * FROM core_evenement WHERE
+     ( 3959 * acos( cos( radians(%s) ) * cos( radians( LATITUDE ) )
+      * cos( radians(LONGITUDE) - radians(%s)) + sin(radians(%s))
+      * sin( radians(LATITUDE)))) <= %s
+    """
+    if 'latitude' not in request.GET and 'longitude' not in request.GET:
+        return HttpResponseBadRequest('must pass latitude and longitude')
+
+    latitude = float(request.GET['latitude'])
+    longitude = float(request.GET['longitude'])
+    km = float(request.GET['km'])
+
+    print [latitude, longitude, latitude, km]
+
+    evenements = Evenement.objects.raw( sql, [latitude, longitude, latitude, km] )
+
+    serializer = serializers.get_serializer("json")()
+    data = serializer.serialize(evenements)
     return HttpResponse(data)
 
