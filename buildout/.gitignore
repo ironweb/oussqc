@@ -1,0 +1,11 @@
+*.pyc
+*.mo
+*.swp
+/.installed.cfg
+/.mr.developer.cfg
+/bin
+/develop-eggs
+/eggs
+/parts
+/core
+/project
