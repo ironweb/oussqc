@@ -36,6 +36,14 @@ class Evenement(models.Model):
     def guess_time_range(self):
         return time_guesser.guess_time(self.HORAIRE_EVENEMENT)
 
+    def get_short_description(self):
+        MAX = 150
+        if len(self.DESCRIPTION_EVENEMENT) < MAX:
+            return self.DESCRIPTION_EVENEMENT
+
+        return self.DESCRIPTION_EVENEMENT[:MAX] + '...'
+
+
 
 '''
 <CATEGORIE_EVENEMENT>Activité familiale</CATEGORIE_EVENEMENT>

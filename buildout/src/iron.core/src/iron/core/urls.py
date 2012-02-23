@@ -1,13 +1,13 @@
 from django.conf.urls.defaults import patterns, url, include
 
-from views import zone_view, category_view, home_view, search_view
 
-urlpatterns = patterns('',
-    ('^$', home),
+urlpatterns = patterns('iron.core.views',
+    ('^$', 'home'),
+    ('^search/$', 'search'),
+    ('^list/$', 'results'),
+    ('^activite/$', 'activite'),
 
-    ('^search/$', search_view),
-    url('^zone/$', zone_view),
-    url('^category/$', category_view),
+    #url('^category/$', category_view),
+    #url('^zone/$', zone_view),
 
 )
-

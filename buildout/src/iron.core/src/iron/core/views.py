@@ -22,23 +22,34 @@ ARR = (
 def home(request):
     return render_to_response('home.html')
 
-def zone_view(request):
-    return render_to_response('arrondissement.html')
-
-def category_view(request):
+def category(request):
     qs = Categorie.objects.all().order_by('UID')
     d = {'categories' : qs}
     c = RequestContext(request, d)
     return render_to_response('category.html', c)
 
+def results(request, mode='list'):
+    from django.conf import settings
+    d = {'settings' : settings}
+    qs_evenements = Evenement.objects.all()[:10]
+    d['evenements'] = qs_evenements
+    c = RequestContext(request, d)
+    return render_to_response('liste.html', c)
 
-def search_view(request, categorie_id=None):
+def activite(request):
+    #from django.conf import settings
+    #d = {'settings' : settings}
+    c = RequestContext(request)
+    return render_to_response('activite.html', c)
+
+
+def search(request, categorie_id=None):
 
     qs = Categorie.objects.all().order_by('UID')
     qs_evenements = Evenement.objects.all()
 
     d = {'categories' : qs, 'selected_categorie_id': categorie_id, 'ARR': ARR}
-    print 'before', len(qs_evenements)
+    #print 'before', len(qs_evenements)
 
     # par arrondissement
     #print arr
