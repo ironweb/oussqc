@@ -1,5 +1,12 @@
 {% extends "base.html" %}
 
 {% block maincontent %}
-duh
+
+    {% for e in evenements %}
+    {{e.TITRE_EVENEMENT}}
+    {{e.get_short_description}}
+    {{e.LATITUDE}}
+    {{e.LONGITUDE}}
+    {% endfor %}
+
 {% endblock %}
