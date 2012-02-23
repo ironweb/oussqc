@@ -6,7 +6,7 @@
         <ul data-role="listview" data-theme="c">
 
             {% for e in evenements %}
-            <li><a href="/activite/"><img class="logo-activite" src="{{STATIC_URL}}img/icon_activite/black.jpg"/><h2 class="titre-activite">{{e.TITRE_EVENEMENT}}</h2><p class="description_activite">{{e.get_short_description}}</p></a></li>
+            <li><a href="/activite/{{ e.id }}/"><img class="logo-activite" src="{{STATIC_URL}}img/icon_activite/black.jpg"/><h2 class="titre-activite">{{e.TITRE_EVENEMENT}}</h2><p class="description_activite">{{e.get_short_description}}</p></a></li>
             {% endfor %}
         </ul>
 

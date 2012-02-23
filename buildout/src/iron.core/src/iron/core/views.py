@@ -36,10 +36,11 @@ def results(request, mode='list'):
     c = RequestContext(request, d)
     return render_to_response('liste.html', c)
 
-def activite(request):
-    #from django.conf import settings
-    #d = {'settings' : settings}
-    c = RequestContext(request)
+def activite(request, event_id):
+    e = Evenement.objects.get(id=event_id)
+    d = {}
+    d['evenement'] = e
+    c = RequestContext(request, d)
     return render_to_response('activite.html', c)
 
 
