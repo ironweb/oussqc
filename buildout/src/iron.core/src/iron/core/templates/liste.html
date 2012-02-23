@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block maincontent %}
+
+    <div data-role="content">
+        <ul data-role="listview" data-theme="c">
+
+            {% for e in evenements %}
+            <li><a href="/activite/"><img class="logo-activite" src="{{settings.STATIC_URL}}img/icon_activite/black.jpg"/><h2 class="titre-activite">{{e.TITRE_EVENEMENT}}</h2><p class="description_activite">{{e.get_short_description}}</p></a></li>
+            {% endfor %}
+        </ul>
+
+    </div>
+
+{% endblock %}
