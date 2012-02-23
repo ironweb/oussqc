@@ -1,9 +1,9 @@
 import xml.dom.minidom
 import sys
-sys.path.append('/home/sylvain/rouges/buildout/core/parser')
+
 import qcparser
 from pprint import pprint
-from iron.core.models import Loisir, Horaire
+
 
 class LoisirParser(qcparser.SimpleParser):
 
@@ -25,11 +25,11 @@ class LoisirParser(qcparser.SimpleParser):
             }
 
     horaire_keys = [
-        'date_debut', 
-        'date_fin', 
-        'heure_debut', 
+        'date_debut',
+        'date_fin',
+        'heure_debut',
         'heure_fin',
-        'jour'
+        'jour',
     ]
 
     def __init__(self, root_tag):
@@ -127,22 +127,42 @@ class LoisirParser(qcparser.SimpleParser):
 
 if __name__ == "__main__":
 
-    if sys.argv[1] == 'libre':
-        f = open("/home/sylvain/rouges/data/loisir_libre_format.xml", "r")
+    from iron.core.models import Loisir, Horaire, Categorie
+    from categories import CategoryParser
+
+    if len(sys.argv) <= 2:
+        print "Usage: %s MODE XML_FILE (mode: libre or payant)" % sys.argv[0]
+        sys.exit(1)
+
+    mode = sys.argv[1]
+    filepath = sys.argv[2]
+
+    if mode == 'libre':
+        f = open(filepath, "r")
         parser = LoisirParser("LOISIR_LIBRE")
 
-    elif sys.argv[1] == 'payant':
-        f = open("/home/sylvain/rouges/data/loisir_payant_format.xml", "r")
+    elif mode == 'payant':
+        f = open(filepath, "r")
         parser = LoisirParser("LOISIR_PAYANT")
     else:
         print "bad"
         exit()
 
-    #loisirs = parser.parse( f.read() )
+    loisirs = parser.parse( f.read() )
 
-    for l in parser.parse( f.read() ):
+    category_parser = CategoryParser()
+    categories = category_parser.categorie_loisirs(loisirs)
+
+    for c in categories:
+        if Categorie.objects.filter(UID=c).count() == 0:
+            model = Categorie()
+            model.UID = c
+            model.save()
+        print c
+
+    for l in loisirs:
         L = Loisir()
-            
+
         L.CODE_SESSION = l['code_session']
         L.DESCRIPTION = l['description']
         L.DESCRIPTION_ACT = l['act']
@@ -150,6 +170,7 @@ if __name__ == "__main__":
         L.NOM_COUR = l['cours']
         L.ARRONDISSEMENT = l['arrondissement']
         L.ADRESSE = l['adresse']
+        L.CATEGORIE = Categorie.objects.get(UID=l['nat'])
 
         if len(l['lieux']) > 0:
             L.LIEU_1 = l['lieux'][0]
