@@ -1,8 +1,11 @@
 import xml.dom.minidom
-import parser
+import sys
+sys.path.append('/home/sylvain/rouges/buildout/core/parser')
+import qcparser
 from pprint import pprint
+from iron.core.models import Loisir, Horaire
 
-class LoisirParser(parser.SimpleParser):
+class LoisirParser(qcparser.SimpleParser):
 
     mapping = {
             'code_session' : "CODE_SESSION",
@@ -124,9 +127,65 @@ class LoisirParser(parser.SimpleParser):
 
 if __name__ == "__main__":
 
-    f = open("../loisirs/loisir_libre_format.xml")
-    parser = LoisirParser("LOISIR_LIBRE")
-    loisirs = parser.parse( f.read() )
+    if sys.argv[1] == 'libre':
+        f = open("/home/sylvain/rouges/data/loisir_libre_format.xml", "r")
+        parser = LoisirParser("LOISIR_LIBRE")
 
-    pprint( loisirs )
+    elif sys.argv[1] == 'payant':
+        f = open("/home/sylvain/rouges/data/loisir_payant_format.xml", "r")
+        parser = LoisirParser("LOISIR_PAYANT")
+    else:
+        print "bad"
+        exit()
 
+    #loisirs = parser.parse( f.read() )
+
+    for l in parser.parse( f.read() ):
+        L = Loisir()
+            
+        L.CODE_SESSION = l['code_session']
+        L.DESCRIPTION = l['description']
+        L.DESCRIPTION_ACT = l['act']
+        L.DESCRIPTION_NAT = l['nat']
+        L.NOM_COUR = l['cours']
+        L.ARRONDISSEMENT = l['arrondissement']
+        L.ADRESSE = l['adresse']
+
+        if len(l['lieux']) > 0:
+            L.LIEU_1 = l['lieux'][0]
+
+        if len(l['lieux']) > 1:
+            L.LIEU_2 = l['lieux'][1]
+
+        print l
+        L.save()
+
+        for h in l['horaires']:
+            H = Horaire()
+            H.LOISIR = (L)
+            H.DATE_DEB = h['date_debut']
+            H.DATE_FIN = h['date_fin']
+            H.HEURE_DEBUT = h['heure_debut']
+            H.HEURE_FIN = h['heure_fin']
+            H.JOUR_SEMAINE = h['jour']
+            H.save()
+
+    pprint( l )
+
+'''
+{'act': u'Chant choral - Journ\xe9e portes ouvertes',
+ 'adresse': u'650, Av Du Bourg-Royal, Qu\xe9bec (QC) G2L 1M8 ',
+ 'arrondissement': u'Arrondissement de Charlesbourg',
+ 'code_session': u'P2012',
+ 'cours': u'Petits chanteurs de Charlesbourg (Les)',
+ 'description': u'Chant choral - Journ\xe9e portes ouvertes',
+ 'horaires': [{'date_debut': u'2012-05-05',
+               'date_fin': u'2012-05-05',
+               'heure_debut': u'13:00:00',
+               'heure_fin': u'16:00:00',
+               'jour': u'Samedi'}],
+ 'lieux': [u'\xc9cole Saint-Jean-Eudes',
+           u'Ext. St-Jean Eudes-Local des cadets (musique)'],
+ 'nat': u'Arts de la sc\xe8ne',
+ 'tarif': None}
+'''

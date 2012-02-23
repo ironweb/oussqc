@@ -8,20 +8,20 @@ class Evenement(models.Model):
     CATEGORIE_EVENEMENT = models.CharField(max_length=100)
 
     TITRE_EVENEMENT = models.CharField(max_length=100)
-    DEBUT_EVENEMENT = models.DateTimeField()
-    FIN_EVENEMENT = models.DateTimeField()
-    HORAIRE_EVENEMENT = models.CharField(max_length=100)
+    DEBUT_EVENEMENT = models.DateField()
+    FIN_EVENEMENT = models.DateField()
+    HORAIRE_EVENEMENT = models.CharField(max_length=200, null=True)
     COUT_EVENEMENT = models.IntegerField()
     DESCRIPTION_EVENEMENT = models.TextField()
     RENSEIGNEMENT_EVENEMENT = models.IntegerField()
     TEL1_EVENEMENT = models.CharField(max_length=30)
     TEL2_EVENEMENT = models.CharField(max_length=30)
     TEL_LIEU = models.CharField(max_length=30)
-    COURRIEL_EVENEMENT = models.EmailField()
-    URL_EVENEMENT = models.URLField()
-    NOMLIEU_EVENEMENT = models.CharField(max_length=30)
-    COMPLEMENT_LIEU_EVENEMENT = models.CharField(max_length=100)
-    ADRESSE_EVENEMENT = models.CharField(max_length=100)
+    COURRIEL_EVENEMENT = models.EmailField(null=True)
+    URL_EVENEMENT = models.URLField(null=True)
+    NOMLIEU_EVENEMENT = models.CharField(max_length=100)
+    COMPLEMENT_LIEU_EVENEMENT = models.CharField(max_length=100, null=True)
+    ADRESSE_EVENEMENT = models.CharField(max_length=100, null=True)
     NOM_ARRONDISSEMENT = models.CharField(max_length=100)
 '''
 <CATEGORIE_EVENEMENT>Activité familiale</CATEGORIE_EVENEMENT>
@@ -42,22 +42,22 @@ class Loisir(models.Model):
 
     CODE_SESSION = models.CharField(max_length=100)
     DESCRIPTION = models.CharField(max_length=100)
-    DESCRIPTION_ACT = models.CharField(max_length=100)
-    DESCRIPTION_NAT = models.CharField(max_length=100)
+    DESCRIPTION_ACT = models.CharField(max_length=100, null=True)
+    DESCRIPTION_NAT = models.CharField(max_length=100, null=True)
     NOM_COUR = models.CharField(max_length=100)
     LIEU_1 = models.CharField(max_length=100)
     LIEU_2 = models.CharField(max_length=100)
     ARRONDISSEMENT = models.CharField(max_length=100)
     ADRESSE = models.CharField(max_length=100)
-    DATE_DEB = models.DateField()
-    DATE_FIN = models.DateField()
 
     # Pour ceux avec tarif.
-    TARIF_BASE = models.DecimalField(max_digits=5, decimal_places=2)
+    TARIF_BASE = models.DecimalField(max_digits=5, decimal_places=2, null=True)
 
 class Horaire(models.Model):
     LOISIR = models.ForeignKey(Loisir)
 
+    DATE_DEB = models.DateField()
+    DATE_FIN = models.DateField()
     JOUR_SEMAINE = models.CharField(max_length=10)
     HEURE_DEBUT = models.TimeField()
     HEURE_FIN = models.TimeField()
