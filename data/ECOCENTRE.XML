@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding = "UTF-8" ?><ns1:ECOCENTRES xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:ns1="http://www.ville.quebec.qc.ca/opendata"
+>
+<ECOCENTRE><Ecocentre>Hétrière</Ecocentre>
+<Arrondissement>Arr. Sainte-Foy - Sillery - Cap-Rouge</Arrondissement>
+<Adresse>3381 rue de l'Hêtrière</Adresse>
+<Telephone></Telephone>
+<Saison>15 avril au 15 nov.</Saison>
+<Lundi>8h à 18h</Lundi>
+<Mardi>8h à 18h</Mardi>
+<Mercredi>8h à 18h</Mercredi>
+<Jeudi>8h à 18h</Jeudi>
+<Vendredi>8h à 18h</Vendredi>
+<Samedi>8h à 17h</Samedi>
+<Dimanche>8h à 12h</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Hétrière</Ecocentre>
+<Arrondissement>Arr. Sainte-Foy - Sillery - Cap-Rouge</Arrondissement>
+<Adresse>3381 rue de l'Hêtrière</Adresse>
+<Telephone></Telephone>
+<Saison>Hiver</Saison>
+<Lundi>Fermé</Lundi>
+<Mardi>8h à 17h</Mardi>
+<Mercredi>8h à 17h</Mercredi>
+<Jeudi>8h à 17h</Jeudi>
+<Vendredi>8h à 17h</Vendredi>
+<Samedi>8h à 17h</Samedi>
+<Dimanche>Fermé</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Beauport</Ecocentre>
+<Arrondissement>Arr. Beauport</Arrondissement>
+<Adresse>425 boul. Raymond</Adresse>
+<Telephone></Telephone>
+<Saison>15 avril au 15 nov.</Saison>
+<Lundi>8h à 18h</Lundi>
+<Mardi>8h à 18h</Mardi>
+<Mercredi>8h à 18h</Mercredi>
+<Jeudi>8h à 18h</Jeudi>
+<Vendredi>8h à 18h</Vendredi>
+<Samedi>8h à 17h</Samedi>
+<Dimanche>8h à 12h</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Beauport</Ecocentre>
+<Arrondissement>Arr. Beauport</Arrondissement>
+<Adresse>425 boul. Raymond</Adresse>
+<Telephone></Telephone>
+<Saison>Hiver</Saison>
+<Lundi>Fermé</Lundi>
+<Mardi>8h à 17h</Mardi>
+<Mercredi>8h à 17h</Mercredi>
+<Jeudi>8h à 17h</Jeudi>
+<Vendredi>8h à 17h</Vendredi>
+<Samedi>8h à 17h</Samedi>
+<Dimanche>Fermé</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Des Rivières</Ecocentre>
+<Arrondissement>Arr. Des Rivières</Arrondissement>
+<Adresse>1700 rue Provinciale</Adresse>
+<Telephone>418 684-2121 </Telephone>
+<Saison>15 avril au 15 nov.</Saison>
+<Lundi>8h à 18h</Lundi>
+<Mardi>8h à 18h</Mardi>
+<Mercredi>8h à 18h</Mercredi>
+<Jeudi>8h à 18h</Jeudi>
+<Vendredi>8h à 18h</Vendredi>
+<Samedi>8h à 17h</Samedi>
+<Dimanche>8h à 12h</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Des Rivières</Ecocentre>
+<Arrondissement>Arr. Des Rivières</Arrondissement>
+<Adresse>1700 rue Provinciale</Adresse>
+<Telephone>418 684-2121 </Telephone>
+<Saison>Hiver</Saison>
+<Lundi>Fermé</Lundi>
+<Mardi>8h à 17h</Mardi>
+<Mercredi>8h à 17h</Mercredi>
+<Jeudi>8h à 17h</Jeudi>
+<Vendredi>8h à 17h</Vendredi>
+<Samedi>8h à 17h</Samedi>
+<Dimanche>Fermé</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Montmorency</Ecocentre>
+<Arrondissement>Arr. La Cité-Limoilou</Arrondissement>
+<Adresse>1251 boul. Montmorency</Adresse>
+<Telephone></Telephone>
+<Saison>15 avril au 15 nov.</Saison>
+<Lundi>Fermé</Lundi>
+<Mardi>9h à 17h</Mardi>
+<Mercredi>9h à 17h</Mercredi>
+<Jeudi>9h à 17h</Jeudi>
+<Vendredi>9h à 17h</Vendredi>
+<Samedi>9h à 17h</Samedi>
+<Dimanche>Fermé</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Montmorency</Ecocentre>
+<Arrondissement>Arr. La Cité-Limoilou</Arrondissement>
+<Adresse>1251 boul. Montmorency</Adresse>
+<Telephone></Telephone>
+<Saison>Hiver</Saison>
+<Lundi>Fermé</Lundi>
+<Mardi>9h à 17h</Mardi>
+<Mercredi>Fermé</Mercredi>
+<Jeudi>9h à 17h</Jeudi>
+<Vendredi>Fermé</Vendredi>
+<Samedi>9h à 17h</Samedi>
+<Dimanche>Fermé</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Val-Bélair</Ecocentre>
+<Arrondissement>Arr. Haute Saint-Charles</Arrondissement>
+<Adresse>1472 rue Jean-Bardot</Adresse>
+<Telephone></Telephone>
+<Saison>15 avril au 15 nov.</Saison>
+<Lundi>Fermé</Lundi>
+<Mardi>9h à 17h</Mardi>
+<Mercredi>9h à 17h</Mercredi>
+<Jeudi>9h à 17h</Jeudi>
+<Vendredi>9h à 17h</Vendredi>
+<Samedi>9h à 17h</Samedi>
+<Dimanche>9h à 17h</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Val-Bélair</Ecocentre>
+<Arrondissement>Arr. Haute Saint-Charles</Arrondissement>
+<Adresse>1472 rue Jean-Bardot</Adresse>
+<Telephone></Telephone>
+<Saison>Hiver</Saison>
+<Lundi>Fermé</Lundi>
+<Mardi>9h à 17h</Mardi>
+<Mercredi>Fermé</Mercredi>
+<Jeudi>9h à 17h</Jeudi>
+<Vendredi>Fermé</Vendredi>
+<Samedi>9h à 17h</Samedi>
+<Dimanche>Fermé</Dimanche>
+<Informations_complementaires></Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Loretteville</Ecocentre>
+<Arrondissement>Arr. Haute Saint-Charles</Arrondissement>
+<Adresse>1811 rue St-Barthélémy</Adresse>
+<Telephone></Telephone>
+<Saison>18 avril au 30 oct.</Saison>
+<Lundi>Fermé</Lundi>
+<Mardi>16h à 20h</Mardi>
+<Mercredi>16h à 20h</Mercredi>
+<Jeudi>16h à 20h</Jeudi>
+<Vendredi>16h à 20h</Vendredi>
+<Samedi>8h à 18h</Samedi>
+<Dimanche>8h à 12h</Dimanche>
+<Informations_complementaires>L'Écocentre Loretteville pourrait, selon les conditions climatiques, ouvrir plutôt ou plutard dans l'année.</Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Loretteville</Ecocentre>
+<Arrondissement>Arr. Haute Saint-Charles</Arrondissement>
+<Adresse>1811 rue St-Barthélémy</Adresse>
+<Telephone></Telephone>
+<Saison>Hiver</Saison>
+<Lundi>Fermé</Lundi>
+<Mardi>Fermé</Mardi>
+<Mercredi>Fermé</Mercredi>
+<Jeudi>Fermé</Jeudi>
+<Vendredi>Fermé</Vendredi>
+<Samedi>Fermé</Samedi>
+<Dimanche>Fermé</Dimanche>
+<Informations_complementaires>L'Écocentre Loretteville pourrait, selon les conditions climatiques, ouvrir plutôt ou plutard dans l'année.</Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Matrec</Ecocentre>
+<Arrondissement>Arr. Charlesbourg</Arrondissement>
+<Adresse>1700 Jean-Talon Ouest</Adresse>
+<Telephone></Telephone>
+<Saison>15 avril au 15 nov.</Saison>
+<Lundi>7h00 à 18h</Lundi>
+<Mardi>7h00 à 18h</Mardi>
+<Mercredi>7h00 à 18h</Mercredi>
+<Jeudi>7h00 à 18h</Jeudi>
+<Vendredi>7h00 à 18h</Vendredi>
+<Samedi>7h00 à 18h</Samedi>
+<Dimanche>7h00 à 18h</Dimanche>
+<Informations_complementaires>L'Écocentre Matrec est un écocentre privé. Le contrat avec la Ville de Québec stipule qu'il doit être ouvert dans la plage d'heure mentionnée ci-dessus.</Informations_complementaires>
+</ECOCENTRE>
+<ECOCENTRE><Ecocentre>Matrec</Ecocentre>
+<Arrondissement>Arr. Charlesbourg</Arrondissement>
+<Adresse>1700 Jean-Talon Ouest</Adresse>
+<Telephone></Telephone>
+<Saison>Hiver</Saison>
+<Lundi>8h30 à 16h30</Lundi>
+<Mardi>8h30 à 16h30</Mardi>
+<Mercredi>8h30 à 16h30</Mercredi>
+<Jeudi>8h30 à 16h30</Jeudi>
+<Vendredi>8h30 à 16h30</Vendredi>
+<Samedi>8h30 à 16h30</Samedi>
+<Dimanche>Fermé</Dimanche>
+<Informations_complementaires>L'Écocentre Matrec est un écocentre privé. Le contrat avec la Ville de Québec stipule qu'il doit être ouvert dans la plage d'heure mentionnée ci-dessus.</Informations_complementaires>
+</ECOCENTRE>
+</ns1:ECOCENTRES>

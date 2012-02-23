@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding = "UTF-8" ?><ns1:LISTE_BIBLIO xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:ns1="http://www.ville.quebec.qc.ca/opendata"
+>
+<BIBLIO><Bibliotheque>Gabrielle-Roy</Bibliotheque>
+<Telephone>418 641-6789</Telephone>
+<Adresse>350, rue Saint-Joseph Est</Adresse>
+<Lundi>8 h 30 à 21 h</Lundi>
+<Mardi>8 h 30 à 21 h</Mardi>
+<Mercredi>8 h 30 à 21 h</Mercredi>
+<Jeudi>8 h 30 à 21 h</Jeudi>
+<Vendredi>8 h 30 à 21 h</Vendredi>
+<Samedi>10 h à 17 h</Samedi>
+<Dimanche>10 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Place des enfants</Bibliotheque>
+<Telephone>418 641-6789</Telephone>
+<Adresse>350, rue Saint-Joseph Est</Adresse>
+<Lundi>10 h 30 à 17 h*</Lundi>
+<Mardi>10 h 30 à 17 h*</Mardi>
+<Mercredi>10 h 30 à 17 h*</Mercredi>
+<Jeudi>10 h 30 à 17 h*</Jeudi>
+<Vendredi>10 h 30 à 17 h*</Vendredi>
+<Samedi>12 h à 17 h</Samedi>
+<Dimanche>12 h à 17 h</Dimanche>
+<Info_complementaires>* Jusqu'à 19 h 30 pendant la saison estivale</Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Billetterie</Bibliotheque>
+<Telephone>418 641-6789</Telephone>
+<Adresse>350, rue Saint-Joseph Est</Adresse>
+<Lundi>10 h à 20 h 30</Lundi>
+<Mardi>10 h à 20 h 30</Mardi>
+<Mercredi>10 h à 20 h 30</Mercredi>
+<Jeudi>10 h à 20 h 30</Jeudi>
+<Vendredi>10 h à 20 h 30</Vendredi>
+<Samedi>10 h à 16 h 30</Samedi>
+<Dimanche>10 h à 16 h 30</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Étienne-Parent</Bibliotheque>
+<Telephone>418 641-6110</Telephone>
+<Adresse>3515, rue Clemenceau</Adresse>
+<Lundi>8 h à 21 h</Lundi>
+<Mardi>8 h à 21 h</Mardi>
+<Mercredi>8 h à 21 h</Mercredi>
+<Jeudi>8 h à 21 h</Jeudi>
+<Vendredi>8 h à 21 h</Vendredi>
+<Samedi>9 h à 17 h</Samedi>
+<Dimanche>9 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>du Chemin-Royal</Bibliotheque>
+<Telephone>418 641-6111</Telephone>
+<Adresse>3095, ch. Royal</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>10 h à 20 h</Mardi>
+<Mercredi>Fermé</Mercredi>
+<Jeudi>10 h à 20 h</Jeudi>
+<Vendredi>Fermé</Vendredi>
+<Samedi>12 h à 16 h 30</Samedi>
+<Dimanche>12 h à 16 h 30</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>de Charlesbourg</Bibliotheque>
+<Telephone>418 641-6287</Telephone>
+<Adresse>7950, 1re Avenue</Adresse>
+<Lundi>12 h à 17 h</Lundi>
+<Mardi>12 h à 21 h</Mardi>
+<Mercredi>12 h à 21 h</Mercredi>
+<Jeudi>12 h à 21 h</Jeudi>
+<Vendredi>12 h à 21 h</Vendredi>
+<Samedi>12 h à 17 h</Samedi>
+<Dimanche>12 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Bon-Pasteur</Bibliotheque>
+<Telephone>418 641-6288</Telephone>
+<Adresse>425, rue du Bienheureux-Jean-xxIII</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>18 h à 21 h</Mardi>
+<Mercredi>18 h à 21 h</Mercredi>
+<Jeudi>13 h 30 à 17 h</Jeudi>
+<Vendredi>13 h 30 à 17 h</Vendredi>
+<Samedi>13 h 30 à 17 h</Samedi>
+<Dimanche>12 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>du Jardin</Bibliotheque>
+<Telephone>418 641-6289</Telephone>
+<Adresse>4215, av. des Sauges</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>18 h à 21 h</Mardi>
+<Mercredi>18 h à 21 h</Mercredi>
+<Jeudi>13 h 30 à 17 h</Jeudi>
+<Vendredi>13 h 30 à 17 h</Vendredi>
+<Samedi>13 h 30 à 17 h</Samedi>
+<Dimanche>12 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Canardière</Bibliotheque>
+<Telephone>418 641-6793</Telephone>
+<Adresse>1601, ch. de la Canardière</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>13 h à 20 h</Mardi>
+<Mercredi>13 h à 20 h</Mercredi>
+<Jeudi>10 h à 17 h 30</Jeudi>
+<Vendredi>13 h à 17 h 30</Vendredi>
+<Samedi>13 h à 17 h</Samedi>
+<Dimanche>13 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Collège-des-Jésuites</Bibliotheque>
+<Telephone>418 641-6792</Telephone>
+<Adresse>1120, boul. René-Lévesque O</Adresse>
+<Lundi>10 h à 17 h 30</Lundi>
+<Mardi>10 h à 20 h</Mardi>
+<Mercredi>10 h à 17 h 30</Mercredi>
+<Jeudi>10 h à 20 h</Jeudi>
+<Vendredi>10 h à 17 h 30</Vendredi>
+<Samedi>10 h à 17 h</Samedi>
+<Dimanche>10 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Saint-Albert</Bibliotheque>
+<Telephone>418 641-6791</Telephone>
+<Adresse>5, rue des Ormes</Adresse>
+<Lundi>12 h à 17 h 30</Lundi>
+<Mardi>12 h à 20 h</Mardi>
+<Mercredi>10 h à 17 h 30</Mercredi>
+<Jeudi>12 h à 17 h 30</Jeudi>
+<Vendredi>12 h à 20 h</Vendredi>
+<Samedi>13 h à 17 h</Samedi>
+<Dimanche>13 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Saint-Charles</Bibliotheque>
+<Telephone>418 641-6795</Telephone>
+<Adresse>400, 4e Avenue</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>13 h à 20 h</Mardi>
+<Mercredi>13 h à 17 h 30</Mercredi>
+<Jeudi>13 h à 20 h</Jeudi>
+<Vendredi>10 h à 17 h 30</Vendredi>
+<Samedi>13 h à 17 h</Samedi>
+<Dimanche>13 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Saint-Jean-Baptiste</Bibliotheque>
+<Telephone>418 641-6798</Telephone>
+<Adresse>755, rue Saint-Jean</Adresse>
+<Lundi>12 h à 17 h 30</Lundi>
+<Mardi>12 h à 17 h 30</Mardi>
+<Mercredi>12 h à 20 h</Mercredi>
+<Jeudi>12 h à 17 h 30</Jeudi>
+<Vendredi>10 h à 17 h 30</Vendredi>
+<Samedi>13 h à 17 h</Samedi>
+<Dimanche>13 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Vieux-Québec</Bibliotheque>
+<Telephone>418 641-6797</Telephone>
+<Adresse>37, rue Sainte-Angèle</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>12 h à 17 h</Mardi>
+<Mercredi>12 h à 17 h</Mercredi>
+<Jeudi>12 h à 17 h</Jeudi>
+<Vendredi>12 h à 17 h</Vendredi>
+<Samedi>13 h à 17 h</Samedi>
+<Dimanche>13 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Chrystine-Brouillet</Bibliotheque>
+<Telephone>418 641-6120</Telephone>
+<Adresse>264, rue Racine</Adresse>
+<Lundi>13 h à 20 h</Lundi>
+<Mardi>13 h à 20 h</Mardi>
+<Mercredi>13 h à 20 h</Mercredi>
+<Jeudi>13 h à 20 h</Jeudi>
+<Vendredi>13 h à 20 h</Vendredi>
+<Samedi>10 h à 17 h</Samedi>
+<Dimanche>12 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Félix-Leclerc</Bibliotheque>
+<Telephone>418 641-6435</Telephone>
+<Adresse>1465, rue de l’Innovation</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>12 h à 21 h</Mardi>
+<Mercredi>12 h à 21 h</Mercredi>
+<Jeudi>12 h à 21 h</Jeudi>
+<Vendredi>12 h à 17 h</Vendredi>
+<Samedi>12 h à 17 h</Samedi>
+<Dimanche>12 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Le Tournesol</Bibliotheque>
+<Telephone>418 641-6121</Telephone>
+<Adresse>530, rue Delage</Adresse>
+<Lundi>13 h à 20 h</Lundi>
+<Mardi>13 h à 20 h</Mardi>
+<Mercredi>13 h à 20 h</Mercredi>
+<Jeudi>13 h à 20 h</Jeudi>
+<Vendredi>13 h à 20 h</Vendredi>
+<Samedi>10 h à 17 h</Samedi>
+<Dimanche>12 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Neufchâtel</Bibliotheque>
+<Telephone>418 641-6794</Telephone>
+<Adresse>4060, rue Blain</Adresse>
+<Lundi>10 h à 17 h</Lundi>
+<Mardi>10 h à 20 h</Mardi>
+<Mercredi>10 h à 17 h</Mercredi>
+<Jeudi>10 h à 20 h</Jeudi>
+<Vendredi>10 h à 17 h</Vendredi>
+<Samedi>10 h à 17 h</Samedi>
+<Dimanche>10 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Aliette-Marchand</Bibliotheque>
+<Telephone>418 641-6223</Telephone>
+<Adresse>233, boul. Pierre-Bertrand</Adresse>
+<Lundi>13 h à 17 h 30</Lundi>
+<Mardi>13 h à 20 h 30</Mardi>
+<Mercredi>13 h à 20 h 30</Mercredi>
+<Jeudi>13 h à 20 h 30</Jeudi>
+<Vendredi>13 h à 17 h 30</Vendredi>
+<Samedi>10 h à 17 h</Samedi>
+<Dimanche>12 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Jean-Baptiste-Duberger</Bibliotheque>
+<Telephone>418 641-6799</Telephone>
+<Adresse>2475, boul. Central</Adresse>
+<Lundi>Fermeture temporaire</Lundi>
+<Mardi>Fermeture temporaire</Mardi>
+<Mercredi>Fermeture temporaire</Mercredi>
+<Jeudi>Fermeture temporaire</Jeudi>
+<Vendredi>Fermeture temporaire</Vendredi>
+<Samedi>Fermeture temporaire</Samedi>
+<Dimanche>Fermeture temporaire</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Lebourgneuf</Bibliotheque>
+<Telephone>418 641-6264</Telephone>
+<Adresse>1650, boul. La Morille, bur. 230</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>13 h à 17 h</Mardi>
+<Mercredi>13 h à 20 h</Mercredi>
+<Jeudi>13 h à 17 h</Jeudi>
+<Vendredi>13 h à 20 h</Vendredi>
+<Samedi>12 h à 17 h</Samedi>
+<Dimanche>12 h à 17 h*</Dimanche>
+<Info_complementaires>* Fermé le dimanche du 15 juin à la fête du Travail</Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Romain-Langlois</Bibliotheque>
+<Telephone>418 641-6796</Telephone>
+<Adresse>2035, boul. Masson</Adresse>
+<Lundi>10 h à 17 h</Lundi>
+<Mardi>13 h à 20 h</Mardi>
+<Mercredi>10 h à 20 h</Mercredi>
+<Jeudi>13 h à 20 h</Jeudi>
+<Vendredi>10 h à 20 h</Vendredi>
+<Samedi>10 h à 17 h</Samedi>
+<Dimanche>10 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Saint-André</Bibliotheque>
+<Telephone>418 641-6790</Telephone>
+<Adresse>2155, boul. Bastien</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>10 h à 20 h</Mardi>
+<Mercredi>13 h à 17 h</Mercredi>
+<Jeudi>10 h à 20 h</Jeudi>
+<Vendredi>13 h à 17 h</Vendredi>
+<Samedi>10 h à 17 h</Samedi>
+<Dimanche>10 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Charles-H.-Blais</Bibliotheque>
+<Telephone>418 641-6276</Telephone>
+<Adresse>1445, av. Maguire</Adresse>
+<Lundi>14 h à 21 h</Lundi>
+<Mardi>14 h à 21 h</Mardi>
+<Mercredi>14 h à 21 h</Mercredi>
+<Jeudi>14 h à 21 h</Jeudi>
+<Vendredi>14 h à 21 h</Vendredi>
+<Samedi>13 h à 17 h</Samedi>
+<Dimanche>13 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Monique-Corriveau</Bibliotheque>
+<Telephone>418 641-6277</Telephone>
+<Adresse>999, av. Roland-Beaudin</Adresse>
+<Lundi>13 h à 17 h</Lundi>
+<Mardi>12 h à 21 h</Mardi>
+<Mercredi>12 h à 21 h</Mercredi>
+<Jeudi>12 h à 21 h</Jeudi>
+<Vendredi>13 h à 21 h</Vendredi>
+<Samedi>10 h à 17 h</Samedi>
+<Dimanche>13 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Roger-Lemelin</Bibliotheque>
+<Telephone>418 641-6143</Telephone>
+<Adresse>4705, rue de la Promenade-des-Sœurs</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>14 h à 21 h</Mardi>
+<Mercredi>10 h à 21 h</Mercredi>
+<Jeudi>14 h à 21 h</Jeudi>
+<Vendredi>14 h à 18 h</Vendredi>
+<Samedi>12 h à 17 h</Samedi>
+<Dimanche>12 h à 17 h</Dimanche>
+<Info_complementaires></Info_complementaires>
+</BIBLIO>
+<BIBLIO><Bibliotheque>Champigny</Bibliotheque>
+<Telephone>418 641-6145</Telephone>
+<Adresse>1465, rue Félix-Antoine-Savard</Adresse>
+<Lundi>Fermé</Lundi>
+<Mardi>18 h à 21 h*</Mardi>
+<Mercredi>18 h à 21 h*</Mercredi>
+<Jeudi>18 h à 21 h*</Jeudi>
+<Vendredi>Fermé</Vendredi>
+<Samedi>13 h à 17 h</Samedi>
+<Dimanche>Fermé</Dimanche>
+<Info_complementaires>* 14 h à 21 h de la fin juin à la mi-août</Info_complementaires>
+</BIBLIO>
+</ns1:LISTE_BIBLIO>

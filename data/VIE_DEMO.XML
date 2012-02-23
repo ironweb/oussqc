@@ -1,0 +1,2194 @@
+<?xml version="1.0" encoding = "UTF-8" ?><ns1:Conseils xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:ns1="http://www.ville.quebec.qc.ca/opendata"
+>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Neufchâtel-Est / Lebourgneuf</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-18T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Lebourgneuf</NOM>
+<SALLE>Salle de Culte</SALLE>
+<RUE>boulevard La Morille</RUE>
+<NUMERO_CIVIC>1650</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Neufchâtel-Est / Lebourgneuf</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-02T19:00:00</DATE_RENCONTRE>
+<ENDROIT>École Saint-Bernard</ENDROIT>
+<NOM>École Saint-Bernard</NOM>
+<SALLE>Gymnase</SALLE>
+<RUE>boulevard Bastien</RUE>
+<NUMERO_CIVIC>1440</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Neufchâtel-Est / Lebourgneuf</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-06T19:00:00</DATE_RENCONTRE>
+<ENDROIT>École Saint-Bernard</ENDROIT>
+<NOM>École Saint-Bernard</NOM>
+<SALLE>Gymnase</SALLE>
+<RUE>boulevard Bastien</RUE>
+<NUMERO_CIVIC>1440</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Duberger-Les-Saules</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-14T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Les Saules</NOM>
+<SALLE>Salle E102</SALLE>
+<RUE>rue De Musset</RUE>
+<NUMERO_CIVIC>4124</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Duberger-Les-Saules</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-11T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Duberger</NOM>
+<SALLE>Salle Desjardins</SALLE>
+<RUE>rue de la Rivière-du-Berger</RUE>
+<NUMERO_CIVIC>2341</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Duberger-Les-Saules</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-09T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Les Saules</ENDROIT>
+<NOM>Centre communautaire Les Saules</NOM>
+<SALLE>Salle E102</SALLE>
+<RUE>rue De Musset</RUE>
+<NUMERO_CIVIC>4124</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Duberger-Les-Saules</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-13T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Duberger</ENDROIT>
+<NOM>Centre communautaire Duberger</NOM>
+<SALLE>Salle Desjardins</SALLE>
+<RUE>rue de la Rivière-du-Berger</RUE>
+<NUMERO_CIVIC>2341</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Chutes-Montmorency</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-06T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre Odilon-Blanchette</NOM>
+<SALLE></SALLE>
+<RUE>avenue Ruel</RUE>
+<NUMERO_CIVIC>49</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Chutes-Montmorency</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-03T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre Odilon-Blanchette</NOM>
+<SALLE></SALLE>
+<RUE>avenue Ruel</RUE>
+<NUMERO_CIVIC>49</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Chutes-Montmorency</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-01T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre Odilon-Blanchette</ENDROIT>
+<NOM>Centre Odilon-Blanchette</NOM>
+<SALLE></SALLE>
+<RUE>avenue Ruel</RUE>
+<NUMERO_CIVIC>49</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vanier</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-27T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Salle du conseil du Bureau d'arrondissement des Rivières, 330 rue Chabot</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Chutes-Montmorency</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-05T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre Odilon-Blanchette</ENDROIT>
+<NOM>Centre Odilon-Blanchette</NOM>
+<SALLE></SALLE>
+<RUE>avenue Ruel</RUE>
+<NUMERO_CIVIC>49</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vanier</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-26T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Salle du conseil du Bureau d'arrondissement des Rivières, 330 rue Chabot</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vanier</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-30T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Salle du conseil du Bureau d'arrondissement des Rivières, 330 rue Chabot</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vanier</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-28T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Salle du conseil du Bureau d'arrondissement des Rivières, 330 rue Chabot</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vanier</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-18T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Salle du conseil du Bureau d'arrondissement des Rivières, 330 rue Chabot</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sacrement</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-07T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre des loisirs Saint-Sacrement</NOM>
+<SALLE></SALLE>
+<RUE>boulevard de l'Entente</RUE>
+<NUMERO_CIVIC>1360</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sacrement</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-04T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre des loisirs Saint-Sacrement</NOM>
+<SALLE></SALLE>
+<RUE>boulevard de l'Entente</RUE>
+<NUMERO_CIVIC>1360</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sacrement</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-02T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre des loisirs Saint-Sacrement</ENDROIT>
+<NOM>Centre des loisirs Saint-Sacrement</NOM>
+<SALLE></SALLE>
+<RUE>boulevard de l'Entente</RUE>
+<NUMERO_CIVIC>1360</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sacrement</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-06T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre des loisirs Saint-Sacrement</ENDROIT>
+<NOM>Centre des loisirs Saint-Sacrement</NOM>
+<SALLE></SALLE>
+<RUE>boulevard de l'Entente</RUE>
+<NUMERO_CIVIC>1360</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Sillery</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-13T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Noël-Brulart, grande salle, 1229, avenue du Chanoine-Morel</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Sillery</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-17T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Noël-Brulart</ENDROIT>
+<NOM>Centre Brulart</NOM>
+<SALLE>Salle 114</SALLE>
+<RUE>avenue du Chanoine-Morel</RUE>
+<NUMERO_CIVIC>1229</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Sillery</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-08T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Noël-Brulart</ENDROIT>
+<NOM>Centre Brulart</NOM>
+<SALLE>Salle 114</SALLE>
+<RUE>avenue du Chanoine-Morel</RUE>
+<NUMERO_CIVIC>1229</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Sillery</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-12T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Noël-Brulart</ENDROIT>
+<NOM>Centre Brulart</NOM>
+<SALLE>Salle 114</SALLE>
+<RUE>avenue du Chanoine-Morel</RUE>
+<NUMERO_CIVIC>1229</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cité-Universitaire</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-21T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Saint-Thomas-d'Aquin, 895, avenue Myrand</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cité-Universitaire</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-18T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Saint-Thomas-d'Aquin, 895, avenue Myrand</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cité-Universitaire</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-16T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Saint-Thomas-d'Aquin, 895, avenue Myrand</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cité-Universitaire</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-20T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Saint-Thomas-d'Aquin, 895, avenue Myrand</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Louis</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-14T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Sainte-Foy-Sillery-Cap-Rouge, 1130, route de l'Église</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Louis</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-11T19:00:00</DATE_RENCONTRE>
+<ENDROIT>À confirmer</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Louis</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-09T19:00:00</DATE_RENCONTRE>
+<ENDROIT>À confirmer</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Louis</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-13T19:00:00</DATE_RENCONTRE>
+<ENDROIT>À confirmer</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Plateau</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-28T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Claude-Allard</ENDROIT>
+<NOM>Centre communautaire Claude-Allard</NOM>
+<SALLE>Salle 215</SALLE>
+<RUE>avenue D'Amours</RUE>
+<NUMERO_CIVIC>3200</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Plateau</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-27T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre de loisirs Saint-Mathieu</NOM>
+<SALLE></SALLE>
+<RUE>rue de Bar-le-Duc </RUE>
+<NUMERO_CIVIC>1000</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Plateau</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-24T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Claude-Allard</ENDROIT>
+<NOM>Centre communautaire Claude-Allard</NOM>
+<SALLE>Salle 215</SALLE>
+<RUE>avenue D'Amours</RUE>
+<NUMERO_CIVIC>3200</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Plateau</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-22T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Saint-Mathieu</ENDROIT>
+<NOM>Centre de loisirs Saint-Mathieu</NOM>
+<SALLE></SALLE>
+<RUE>rue de Bar-le-Duc </RUE>
+<NUMERO_CIVIC>1000</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Plateau</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-19T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Claude-Allard</ENDROIT>
+<NOM>Centre communautaire Claude-Allard</NOM>
+<SALLE>Salle 215</SALLE>
+<RUE>avenue D'Amours</RUE>
+<NUMERO_CIVIC>3200</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Montcalm</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-13T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre culture et environnement Frédéric-Back</NOM>
+<SALLE>Salle de répétition</SALLE>
+<RUE>avenue De Salaberry</RUE>
+<NUMERO_CIVIC>870</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Montcalm</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-10T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre culture et environnement Frédéric-Back</NOM>
+<SALLE>Salle de répétition</SALLE>
+<RUE>avenue De Salaberry</RUE>
+<NUMERO_CIVIC>870</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Montcalm</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-08T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre culture et environnement Frédéric-Back</NOM>
+<SALLE>Salle de répétition</SALLE>
+<RUE>avenue De Salaberry</RUE>
+<NUMERO_CIVIC>870</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Montcalm</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-12T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre culture et environnement Frédéric-Back</NOM>
+<SALLE>Salle de répétition</SALLE>
+<RUE>avenue De Salaberry</RUE>
+<NUMERO_CIVIC>870</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Roch</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-23T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Roch</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-29T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Roch</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-26T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Roch</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-31T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Roch</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-21T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Lairet</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-14T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Marchand</NOM>
+<SALLE></SALLE>
+<RUE>2e Avenue</RUE>
+<NUMERO_CIVIC>2740</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Lairet</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-11T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Marchand</NOM>
+<SALLE></SALLE>
+<RUE>2e Avenue</RUE>
+<NUMERO_CIVIC>2740</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Lairet</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-09T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Marchand</ENDROIT>
+<NOM>Centre communautaire Marchand</NOM>
+<SALLE></SALLE>
+<RUE>2e Avenue</RUE>
+<NUMERO_CIVIC>2740</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Lairet</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-13T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Marchand</ENDROIT>
+<NOM>Centre communautaire Marchand</NOM>
+<SALLE></SALLE>
+<RUE>2e Avenue</RUE>
+<NUMERO_CIVIC>2740</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Québec-Cap-Blanc-colline Parlementaire</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-21T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle de réception</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Québec-Cap-Blanc-colline Parlementaire</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-20T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>L'École des Ursulines</NOM>
+<SALLE>Salle du gymnase</SALLE>
+<RUE>ruelle des Ursulines</RUE>
+<NUMERO_CIVIC>3</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Québec-Cap-Blanc-colline Parlementaire</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-17T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>L'École des Ursulines</NOM>
+<SALLE>Salle du gymnase</SALLE>
+<RUE>ruelle des Ursulines</RUE>
+<NUMERO_CIVIC>3</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Québec-Cap-Blanc-colline Parlementaire</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-15T19:00:00</DATE_RENCONTRE>
+<ENDROIT>L'École des Ursulines</ENDROIT>
+<NOM>L'École des Ursulines</NOM>
+<SALLE>Salle du gymnase</SALLE>
+<RUE>ruelle des Ursulines</RUE>
+<NUMERO_CIVIC>3</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Québec-Cap-Blanc-colline Parlementaire</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-19T19:00:00</DATE_RENCONTRE>
+<ENDROIT>L'École des Ursulines</ENDROIT>
+<NOM>L'École des Ursulines</NOM>
+<SALLE>Salle du gymnase</SALLE>
+<RUE>ruelle des Ursulines</RUE>
+<NUMERO_CIVIC>3</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Moulin</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-21T19:00:00</DATE_RENCONTRE>
+<ENDROIT>ROSC de Beauport, 2100 avenue Deblois</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Moulin</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-20T19:00:00</DATE_RENCONTRE>
+<ENDROIT>ROSC de Beauport, 2100 avenue Deblois</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Moulin</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-17T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre de loisirs du Petit-Village</NOM>
+<SALLE></SALLE>
+<RUE>boulevard du Loiret</RUE>
+<NUMERO_CIVIC>2900</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Moulin</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-22T19:00:00</DATE_RENCONTRE>
+<ENDROIT>ROSC de Beauport, 2100 avenue Deblois</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Moulin</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-19T19:00:00</DATE_RENCONTRE>
+<ENDROIT>ROSC de Beauport, 2100 avenue Deblois</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Limoilou</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-07T19:30:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Villa Ringfield</NOM>
+<SALLE></SALLE>
+<RUE>avenue La Sarre</RUE>
+<NUMERO_CIVIC>1185</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Limoilou</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-04T19:30:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Ferland</NOM>
+<SALLE></SALLE>
+<RUE>8e Avenue</RUE>
+<NUMERO_CIVIC>1600</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Limoilou</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-02T19:30:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Villa Ringfield</NOM>
+<SALLE></SALLE>
+<RUE>avenue La Sarre</RUE>
+<NUMERO_CIVIC>1185</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vieux-Limoilou</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-06T19:30:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Villa Ringfield</NOM>
+<SALLE></SALLE>
+<RUE>avenue La Sarre</RUE>
+<NUMERO_CIVIC>1185</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Jean-Baptiste</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-21T18:00:00</DATE_RENCONTRE>
+<ENDROIT>Église Saint-Jean-Baptiste</ENDROIT>
+<NOM>Église Saint-Jean-Baptiste</NOM>
+<SALLE>Sous-sol</SALLE>
+<RUE>rue Saint-Jean</RUE>
+<NUMERO_CIVIC>470</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Jean-Baptiste</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-21T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Église Saint-Jean-Baptiste</ENDROIT>
+<NOM>Église Saint-Jean-Baptiste</NOM>
+<SALLE>Sous-sol</SALLE>
+<RUE>rue Saint-Jean</RUE>
+<NUMERO_CIVIC>470</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Jean-Baptiste</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-18T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre culture et environnement Frédéric-Back</ENDROIT>
+<NOM>Centre culture et environnement Frédéric-Back</NOM>
+<SALLE>RC, salle de répétition</SALLE>
+<RUE>avenue De Salaberry</RUE>
+<NUMERO_CIVIC>870</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Jean-Baptiste</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-16T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre culture et environnement Frédéric-Back</ENDROIT>
+<NOM>Centre culture et environnement Frédéric-Back</NOM>
+<SALLE>RC, salle de répétition</SALLE>
+<RUE>avenue De Salaberry</RUE>
+<NUMERO_CIVIC>870</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Jean-Baptiste</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-20T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre culture et environnement Frédéric-Back</ENDROIT>
+<NOM>Centre culture et environnement Frédéric-Back</NOM>
+<SALLE>RC, salle de répétition</SALLE>
+<RUE>avenue De Salaberry</RUE>
+<NUMERO_CIVIC>870</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sauveur</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-28T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre Monseigneur Bouffard, 680, rue Raoul-Jobin, salle 106 </ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sauveur</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-28T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Patro Laval</NOM>
+<SALLE>Salle de pastorale</SALLE>
+<RUE>rue Bigaouette</RUE>
+<NUMERO_CIVIC>145</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sauveur</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-25T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Patro Laval</ENDROIT>
+<NOM>Patro Laval</NOM>
+<SALLE>Salle de pastorale</SALLE>
+<RUE>rue Bigaouette</RUE>
+<NUMERO_CIVIC>145</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sauveur</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-30T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Patro Laval</ENDROIT>
+<NOM>Patro Laval</NOM>
+<SALLE>Salle de pastorale</SALLE>
+<RUE>rue Bigaouette</RUE>
+<NUMERO_CIVIC>145</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sauveur</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-27T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre Monseigneur Bouffard, salle 201, 680, rue Raoul-Jobin </ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Pointe-de-Sainte-Foy</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-21T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre de service Saint-Benoît</NOM>
+<SALLE></SALLE>
+<RUE>rue Rochambeau</RUE>
+<NUMERO_CIVIC>3454</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Pointe-de-Sainte-Foy</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-19T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre de service Saint-Benoît</NOM>
+<SALLE></SALLE>
+<RUE>rue Rochambeau</RUE>
+<NUMERO_CIVIC>3454</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Pointe-de-Sainte-Foy</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-16T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre de service Saint-Benoît</NOM>
+<SALLE></SALLE>
+<RUE>rue Rochambeau</RUE>
+<NUMERO_CIVIC>3454</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Pointe-de-Sainte-Foy</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-20T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre de loisirs Pie-XII</NOM>
+<SALLE>Salle 107</SALLE>
+<RUE>boulevard Pie-XII</RUE>
+<NUMERO_CIVIC>909</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Maizerets</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-28T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Pavillon de services du parc Bardy</ENDROIT>
+<NOM>Pavillon de services du parc Bardy</NOM>
+<SALLE></SALLE>
+<RUE>rue Adjutor-Rivard</RUE>
+<NUMERO_CIVIC>2025</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Maizerets</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-27T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Pavillon de services du parc Bardy</ENDROIT>
+<NOM>Pavillon de services du parc Bardy</NOM>
+<SALLE></SALLE>
+<RUE>rue Adjutor-Rivard</RUE>
+<NUMERO_CIVIC>2025</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Maizerets</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-18T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre Monseigneur-Marcoux</NOM>
+<SALLE></SALLE>
+<RUE>chemin de la Canardière</RUE>
+<NUMERO_CIVIC>1885</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Maizerets</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-29T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Pavillon de services du parc Bardy</ENDROIT>
+<NOM>Pavillon de services du parc Bardy</NOM>
+<SALLE></SALLE>
+<RUE>rue Adjutor-Rivard</RUE>
+<NUMERO_CIVIC>2025</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Maizerets</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-12T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Pavillon de services du parc Bardy</ENDROIT>
+<NOM>Pavillon de services du parc Bardy</NOM>
+<SALLE></SALLE>
+<RUE>rue Adjutor-Rivard</RUE>
+<NUMERO_CIVIC>2025</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Notre-Dame-des-Laurentides</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-21T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Chalet Notre-Dame-des-Laurentides</NOM>
+<SALLE>Salle principale</SALLE>
+<RUE>rue Moïse-Verret</RUE>
+<NUMERO_CIVIC>55</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Notre-Dame-des-Laurentides</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-04T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Chalet Notre-Dame-des-Laurentides</NOM>
+<SALLE>Salle principale</SALLE>
+<RUE>rue Moïse-Verret</RUE>
+<NUMERO_CIVIC>55</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Notre-Dame-des-Laurentides</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-02T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Chalet Notre-Dame-des-Laurentides</ENDROIT>
+<NOM>Chalet Notre-Dame-des-Laurentides</NOM>
+<SALLE>Salle principale</SALLE>
+<RUE>rue Moïse-Verret</RUE>
+<NUMERO_CIVIC>55</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Notre-Dame-des-Laurentides</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-06T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Chalet Notre-Dame-des-Laurentides</ENDROIT>
+<NOM>Chalet Notre-Dame-des-Laurentides</NOM>
+<SALLE>Salle principale</SALLE>
+<RUE>rue Moïse-Verret</RUE>
+<NUMERO_CIVIC>55</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Notre-Dame-des-Laurentides</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-05T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Chalet Notre-Dame-des-Laurentides</ENDROIT>
+<NOM>Chalet Notre-Dame-des-Laurentides</NOM>
+<SALLE>Salle principale</SALLE>
+<RUE>rue Moïse-Verret</RUE>
+<NUMERO_CIVIC>55</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Notre-Dame-des-Laurentides</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-03T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Chalet Notre-Dame-des-Laurentides</ENDROIT>
+<NOM>Chalet Notre-Dame-des-Laurentides</NOM>
+<SALLE>Salle principale</SALLE>
+<RUE>rue Moïse-Verret</RUE>
+<NUMERO_CIVIC>55</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Notre-Dame-des-Laurentides</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-07T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Chalet Notre-Dame-des-Laurentides</ENDROIT>
+<NOM>Chalet Notre-Dame-des-Laurentides</NOM>
+<SALLE>Salle principale</SALLE>
+<RUE>rue Moïse-Verret</RUE>
+<NUMERO_CIVIC>55</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Notre-Dame-des-Laurentides</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-05T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Chalet Notre-Dame-des-Laurentides</ENDROIT>
+<NOM>Chalet Notre-Dame-des-Laurentides</NOM>
+<SALLE>Salle principale</SALLE>
+<RUE>rue Moïse-Verret</RUE>
+<NUMERO_CIVIC>55</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Des Jésuites</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-12T19:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle de la Cité</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Des Jésuites</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-14T19:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle de la Cité</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Des Jésuites</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-11T19:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle de la Cité</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cap-Rouge</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-21T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Cap-Rouge</ENDROIT>
+<NOM>Centre communautaire Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Saint-Félix</RUE>
+<NUMERO_CIVIC>4473</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cap-Rouge</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-20T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Cap-Rouge</ENDROIT>
+<NOM>Centre communautaire Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Saint-Félix</RUE>
+<NUMERO_CIVIC>4473</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cap-Rouge</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-17T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Saint-Félix</RUE>
+<NUMERO_CIVIC>4473</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cap-Rouge</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-15T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Cap-Rouge</ENDROIT>
+<NOM>Centre communautaire Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Saint-Félix</RUE>
+<NUMERO_CIVIC>4473</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cap-Rouge</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-19T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Cap-Rouge</ENDROIT>
+<NOM>Centre communautaire Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Saint-Félix</RUE>
+<NUMERO_CIVIC>4473</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cap-Rouge</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-18T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Cap-Rouge</ENDROIT>
+<NOM>Centre communautaire Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Saint-Félix</RUE>
+<NUMERO_CIVIC>4473</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cap-Rouge</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-18T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Cap-Rouge</ENDROIT>
+<NOM>Centre communautaire Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Saint-Félix</RUE>
+<NUMERO_CIVIC>4473</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cap-Rouge</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-20T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Cap-Rouge</ENDROIT>
+<NOM>Centre communautaire Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Saint-Félix</RUE>
+<NUMERO_CIVIC>4473</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Cap-Rouge</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-16T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Saint-Félix</RUE>
+<NUMERO_CIVIC>4473</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-12T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-10T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-14T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-11T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-07-03T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-08-28T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-10T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-09T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-12T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-10T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-27T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-12T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-26T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-10T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-23T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-14T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-28T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-11T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-26T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-07-06T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-08-20T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-10T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-24T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-09T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-22T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-12T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-26T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Cité</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-10T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-28T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-27T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-24T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-29T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-26T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-07-05T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-08-28T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-25T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-30T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-27T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Charlesbourg</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-11T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Aéroport</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-13T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre Trois-Saisons</ENDROIT>
+<NOM>Centre Trois-Saisons</NOM>
+<SALLE>Salle polyvalente</SALLE>
+<RUE>rue Buffon</RUE>
+<NUMERO_CIVIC>1390</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Aéroport</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-10T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Champigny</NOM>
+<SALLE>salle polyvalente</SALLE>
+<RUE>boulevard Wilfrid-Hamel</RUE>
+<NUMERO_CIVIC>7519</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Aéroport</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-08T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre Trois-Saisons</ENDROIT>
+<NOM>Centre Trois-Saisons</NOM>
+<SALLE>Salle polyvalente</SALLE>
+<RUE>rue Buffon</RUE>
+<NUMERO_CIVIC>1390</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Aéroport</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-12T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Champigny</ENDROIT>
+<NOM>Centre communautaire Champigny</NOM>
+<SALLE>salle polyvalente</SALLE>
+<RUE>boulevard Wilfrid-Hamel</RUE>
+<NUMERO_CIVIC>7519</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Aéroport</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-11T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre Trois-Saisons</ENDROIT>
+<NOM>Centre Trois-Saisons</NOM>
+<SALLE>Salle polyvalente</SALLE>
+<RUE>rue Buffon</RUE>
+<NUMERO_CIVIC>1390</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Aéroport</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-09T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Champigny</ENDROIT>
+<NOM>Centre communautaire Champigny</NOM>
+<SALLE>salle polyvalente</SALLE>
+<RUE>boulevard Wilfrid-Hamel</RUE>
+<NUMERO_CIVIC>7519</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Aéroport</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-13T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre Trois-Saisons</ENDROIT>
+<NOM>Centre Trois-Saisons</NOM>
+<SALLE>Salle polyvalente</SALLE>
+<RUE>rue Buffon</RUE>
+<NUMERO_CIVIC>1390</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Aéroport</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-11T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Champigny</ENDROIT>
+<NOM>Centre communautaire Champigny</NOM>
+<SALLE>salle polyvalente</SALLE>
+<RUE>boulevard Wilfrid-Hamel</RUE>
+<NUMERO_CIVIC>7519</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-06T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-03T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-01T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-05T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-08-28T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-07-05T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-18T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-02T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-06T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-04T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Lac-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-13T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Paul-Émile-Beaulieu</ENDROIT>
+<NOM>Centre communautaire Paul-Émile-Beaulieu</NOM>
+<SALLE>Salle 101</SALLE>
+<RUE>rue Delage</RUE>
+<NUMERO_CIVIC>530</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Loretteville</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-06T19:15:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Des Châtels</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-21T19:15:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Michel-Labadie, salle RC07, 3705, avenue Chauveau</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Des Châtels</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-20T19:15:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Michel-Labadie, salle RC07, 3705, avenue Chauveau</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Émile</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-28T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Saint-Émile, 2200, rue de la Faune, salle 140</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Émile</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-27T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Saint-Émile, 2200, rue de la Faune, salle 140</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Val-Bélair</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-21T19:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau administratif, 3490, route de l'Aéroport, salle C 104</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-12T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-10T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-14T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-11T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-07-09T17:30:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-08-22T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-10T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-09T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-12T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Sainte-Foy–Sillery</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-10T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</ENDROIT>
+<NOM>Bureau d’arrondissement de Sainte-Foy–Sillery–Cap-Rouge</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>route de l’Église</RUE>
+<NUMERO_CIVIC>1130</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-13T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Monseigneur-De Laval</ENDROIT>
+<NOM>Centre de loisirs Monseigneur-De Laval</NOM>
+<SALLE></SALLE>
+<RUE>avenue du Couvent</RUE>
+<NUMERO_CIVIC>35</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-10T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Monseigneur-De Laval</ENDROIT>
+<NOM>Centre de loisirs Monseigneur-De Laval</NOM>
+<SALLE></SALLE>
+<RUE>avenue du Couvent</RUE>
+<NUMERO_CIVIC>35</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-08T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs La sablière</ENDROIT>
+<NOM>Centre de loisirs La sablière</NOM>
+<SALLE></SALLE>
+<RUE>rue Bertrand</RUE>
+<NUMERO_CIVIC>156</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-12T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs La ribambelle</ENDROIT>
+<NOM>Centre de loisirs La ribambelle</NOM>
+<SALLE></SALLE>
+<RUE>rue Perroteau</RUE>
+<NUMERO_CIVIC>333</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-07-05T17:30:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre de loisirs Monseigneur-De Laval</NOM>
+<SALLE></SALLE>
+<RUE>avenue du Couvent</RUE>
+<NUMERO_CIVIC>35</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-08-28T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Monseigneur-De Laval</ENDROIT>
+<NOM>Centre de loisirs Monseigneur-De Laval</NOM>
+<SALLE></SALLE>
+<RUE>avenue du Couvent</RUE>
+<NUMERO_CIVIC>35</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-11T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Ulric-Turcotte</ENDROIT>
+<NOM>Centre de loisirs Ulric-Turcotte</NOM>
+<SALLE></SALLE>
+<RUE>rue Vachon</RUE>
+<NUMERO_CIVIC>35</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-09T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs du Petit-Village</ENDROIT>
+<NOM>Centre de loisirs du Petit-Village</NOM>
+<SALLE></SALLE>
+<RUE>boulevard du Loiret</RUE>
+<NUMERO_CIVIC>2900</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-13T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Monseigneur-De Laval</ENDROIT>
+<NOM>Centre de loisirs Monseigneur-De Laval</NOM>
+<SALLE></SALLE>
+<RUE>avenue du Couvent</RUE>
+<NUMERO_CIVIC>35</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Beauport</NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-11T17:30:00</DATE_RENCONTRE>
+<ENDROIT>Centre de loisirs Monseigneur-De Laval</ENDROIT>
+<NOM>Centre de loisirs Monseigneur-De Laval</NOM>
+<SALLE></SALLE>
+<RUE>avenue du Couvent</RUE>
+<NUMERO_CIVIC>35</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-20T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-05T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-03-19T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-02T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-16T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-07T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-05-22T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-04T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-06-18T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-07-04T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-08-27T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-09-17T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-01T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-10-15T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-05T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-11-19T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-03T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil municipal</NOM_I>
+<NOM_SI></NOM_SI>
+<TYPE_RENCONTRE>0</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-12-17T17:00:00</DATE_RENCONTRE>
+<ENDROIT>Hôtel de ville</ENDROIT>
+<NOM>Hôtel de ville</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue des Jardins</RUE>
+<NUMERO_CIVIC>2</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Neufchâtel-Est / Lebourgneuf</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-23T19:00:00</DATE_RENCONTRE>
+<ENDROIT></ENDROIT>
+<NOM>Centre communautaire Lebourgneuf</NOM>
+<SALLE>Salle de Culte</SALLE>
+<RUE>boulevard La Morille</RUE>
+<NUMERO_CIVIC>1650</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Duberger-Les-Saules</NOM_SI>
+<TYPE_RENCONTRE>4</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-29T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Les Saules</ENDROIT>
+<NOM>Centre communautaire Les Saules</NOM>
+<SALLE>Salle E102</SALLE>
+<RUE>rue De Musset</RUE>
+<NUMERO_CIVIC>4124</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Vanier</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-17T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Salle du conseil du Bureau d'arrondissement des Rivières, 330 rue Chabot</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Loretteville</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-03T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de La Haute-Saint-Charles, Salle RC04, 305, rue Racine</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>Les Rivières</NOM_SI>
+<TYPE_RENCONTRE>1</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-21T08:30:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement des Rivières</ENDROIT>
+<NOM>Bureau d’arrondissement des Rivières</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue, Chabot</RUE>
+<NUMERO_CIVIC>330</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Val-Bélair</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-18T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre culturel Georges-Dor, 3490, route de l'Aéroport, salle RC29 </ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Émile</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-04T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Saint-Émile, 2200, rue de la Faune, salle 140</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Des Châtels</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-17T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Michel-Labadie, salle RC07, 3705, avenue Chauveau</ENDROIT>
+<NOM></NOM>
+<SALLE></SALLE>
+<RUE></RUE>
+<NUMERO_CIVIC></NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Roch</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-12T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Cité-Limoilou</ENDROIT>
+<NOM>Bureau d’arrondissement de La Cité-Limoilou</NOM>
+<SALLE>Salle Armand-Trottier</SALLE>
+<RUE>rue Saint-Joseph Est</RUE>
+<NUMERO_CIVIC>399</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Saint-Sauveur</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-18T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Patro Laval</ENDROIT>
+<NOM>Patro Laval</NOM>
+<SALLE>Salle de pastorale</SALLE>
+<RUE>rue Bigaouette</RUE>
+<NUMERO_CIVIC>145</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Des Jésuites</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-05T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d'arrondissement de Charlesbourg</ENDROIT>
+<NOM>Bureau d'arrondissement de Charlesbourg</NOM>
+<SALLE>Salle de la Cité</SALLE>
+<RUE>76e Rue Est</RUE>
+<NUMERO_CIVIC>160</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Lac-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>2</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-27T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Paul-Émile-Beaulieu</ENDROIT>
+<NOM>Centre communautaire Paul-Émile-Beaulieu</NOM>
+<SALLE>Salle 101</SALLE>
+<RUE>rue Delage</RUE>
+<NUMERO_CIVIC>530</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil de quartier</NOM_I>
+<NOM_SI>Lac-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>3</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-04-10T19:00:00</DATE_RENCONTRE>
+<ENDROIT>Centre communautaire Paul-Émile-Beaulieu</ENDROIT>
+<NOM>Centre communautaire Paul-Émile-Beaulieu</NOM>
+<SALLE>Salle 101</SALLE>
+<RUE>rue Delage</RUE>
+<NUMERO_CIVIC>530</NUMERO_CIVIC>
+</Conseil>
+<Conseil><NOM_I>Conseil d'arrondissement</NOM_I>
+<NOM_SI>La Haute-Saint-Charles</NOM_SI>
+<TYPE_RENCONTRE>1</TYPE_RENCONTRE>
+<DATE_RENCONTRE>2012-02-17T09:00:00</DATE_RENCONTRE>
+<ENDROIT>Bureau d’arrondissement de La Haute-Saint-Charles</ENDROIT>
+<NOM>Bureau d’arrondissement de La Haute-Saint-Charles</NOM>
+<SALLE>Salle du conseil</SALLE>
+<RUE>rue Racine</RUE>
+<NUMERO_CIVIC>305</NUMERO_CIVIC>
+</Conseil>
+</ns1:Conseils>
