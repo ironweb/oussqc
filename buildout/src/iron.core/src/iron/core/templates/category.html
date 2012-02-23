@@ -1,0 +1,63 @@
+{% extends "base.html" %}
+
+{% block maincontent %}
+
+{% comment %}
+
+<select name="select" id="select_page" onchange="changerPage(this)">
+<option>Choisissez un conseil de quartier</option>
+<optgroup label="Beauport">
+<option value="chutesmontmorency/index.aspx">Chutes-Montmorency</option>
+<option value="vieuxmoulin/index.aspx">Vieux-Moulin</option>
+</optgroup>
+<optgroup label="Charlesbourg">
+<option value="desjesuites/index.aspx">Jésuites</option>
+<option value="notredamelaurentides/index.aspx">Notre-Dame-des-Laurentides</option>
+</optgroup>
+<optgroup label="La Cité-Limoilou">
+<option value="lairet/index.aspx">Lairet</option>
+<option value="maizerets/index.aspx">Maizerets</option>
+<option value="montcalm/index.aspx">Montcalm</option>
+<option value="saintjeanbaptiste/index.aspx">Saint-Jean-Baptiste</option>
+<option value="saintroch/index.aspx">Saint-Roch</option>
+<option value="saintsacrement/index.aspx">Saint-Sacrement</option>
+<option value="saintsauveur/index.aspx">Saint-Sauveur</option>
+<option value="vieuxquebec/index.aspx">Vieux-Québec–Cap-Blanc–Colline-Parlementaire </option>
+<option value="vieuxlimoilou/index.aspx">Vieux-Limoilou</option>
+
+</optgroup>
+<optgroup label="La Haute-Saint-Charles">  
+<option value="deschatels/index.aspx">Châtels</option> 
+<option value="lacsaintcharles/index.aspx">Lac-Saint-Charles</option>
+<option value="loretteville/index.aspx">Loretteville</option>
+<option value="saintemile/index.aspx">Saint-Émile</option>
+<option value="valbelair/index.aspx">Val-Bélair</option>
+</optgroup>
+<optgroup label="Les Rivières">
+<option value="dubergerlessaules/index.aspx">Duberger-Les Saules</option>
+<option value="neufchatelestlebourgneuf/index.aspx">Neufchâtel-Est–Lebourgneuf</option>
+<option value="vanier/index.aspx">Vanier</option>
+</optgroup>
+<optgroup label="Sainte-Foy–Sillery–Cap-Rouge">
+<option value="aeroport/index.aspx">Aéroport</option>
+<option value="caprouge/index.aspx">Cap-Rouge</option> 
+
+<option value="citeuniversitaire/index.aspx">Cité-Universitaire</option>
+<option value="plateau/index.aspx">Plateau</option>
+<option value="pointesaintefoy/index.aspx">Pointe-de-Sainte-Foy</option>
+<option value="saintlouis/index.aspx">Saint-Louis</option>
+<option value="sillery/index.aspx">Sillery</option>
+
+</optgroup>
+
+
+</select>
+{% endcomment %}
+
+{% for e in evenements %}
+<div>
+{{e.TITRE_EVENEMENT}}
+</div>
+{% endfor %}
+
+{% endblock %}
