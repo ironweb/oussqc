@@ -7,6 +7,7 @@ from iron.core.models import Evenement, Categorie
 from django.db.models import Q
 
 from django.shortcuts import render_to_response
+from constantes import ZONES
 
 json = serializers.get_serializer("json")()
 
@@ -19,6 +20,7 @@ ARR = (
     'Sainte-Foy–Sillery–Cap-Rouge'
 )
 
+
 def home(request):
     return render_to_response('home.html')
 
@@ -28,18 +30,19 @@ def category(request):
     c = RequestContext(request, d)
     return render_to_response('category.html', c)
 
-def results(request, mode='list'):
-    from django.conf import settings
-    d = {'settings' : settings}
+def results(request, mode='liste'):
+
+    d = {}
     qs_evenements = Evenement.objects.all()[:10]
     d['evenements'] = qs_evenements
     c = RequestContext(request, d)
-    return render_to_response('liste.html', c)
+
+    # liste ou map
+    return render_to_response(mode+'.html', c)
 
 def activite(request, event_id):
-    e = Evenement.objects.get(id=event_id)
     d = {}
-    d['evenement'] = e
+    d['evenement'] = Evenement.objects.get(id=event_id)
     c = RequestContext(request, d)
     return render_to_response('activite.html', c)
 
@@ -66,6 +69,8 @@ def search(request, categorie_id=None):
         print e
 
     c = RequestContext(request, d)
+
+    print c['STATIC_URL']
     
     return render_to_response('search.html', c)
 
@@ -111,6 +116,13 @@ def eventsearch(request):
     serializer = serializers.get_serializer("json")()
     data = serializer.serialize(evenements)
     return HttpResponse(data)
+
+
+def quartiers(request, arr_index):
+    arr_index = int(arr_index)
+    quartiers = ZONES[arr_index]
+    import json
+    data = json.dumps(quartiers)
 
 def eventradius(request):
 
