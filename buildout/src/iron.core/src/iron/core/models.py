@@ -1,11 +1,15 @@
 #coding: utf-8
 from django.db import models
 
+class Categorie(models.Model):
+    UID = models.CharField(max_length=200)
+
+    PARENT = models.ForeignKey('self', null=True)
 
 class Evenement(models.Model):
     UID = models.CharField(max_length=200)
 
-    CATEGORIE_EVENEMENT = models.CharField(max_length=100)
+    CATEGORIE_EVENEMENT = models.ForeignKey(Categorie) 
 
     TITRE_EVENEMENT = models.CharField(max_length=100)
     DEBUT_EVENEMENT = models.DateField()
@@ -39,6 +43,8 @@ class Evenement(models.Model):
 
 class Loisir(models.Model):
     UID = models.CharField(max_length=200)
+
+    CATEGORIE = models.ForeignKey(Categorie)
 
     CODE_SESSION = models.CharField(max_length=100)
     DESCRIPTION = models.CharField(max_length=100)
