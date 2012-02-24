@@ -105,3 +105,15 @@ class Horaire(models.Model):
 <HEURE_FIN>16:30:00</HEURE_FIN>
 </LOISIR_LIBRE>
 '''
+
+class Attraction(models.Model):
+
+    ID = models.AutoField(primary_key=True)
+
+    TYPE = models.CharField(max_length=100)
+    NOM = models.CharField(max_length=200)
+    ADRESSE = models.CharField(max_length=200)
+    DESCRIPTION = models.CharField(max_length=200)
+    LATITUDE = models.DecimalField(null=True,decimal_places=8,max_digits=10)
+    LONGITUDE = models.DecimalField(null=True,decimal_places=8,max_digits=10)
+
