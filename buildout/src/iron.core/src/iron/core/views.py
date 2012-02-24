@@ -56,8 +56,17 @@ def search(request, categorie_id=None):
     
     # par catégorie
     if categorie_id is not None:
+
+        sql = """
+        SELECT * FROM core_evenement
+        WHERE id IN (SELECT evenement_id FROM core_evenement_CATEGORIES WHERE
+        categorie_id = %s)
+        """
+
+        qs_evenements = Evenement.objects.raw(sql, [int(categorie_id)]
+
         d['selected_categorie_id'] = int(d['selected_categorie_id'])
-        qs_evenements = qs_evenements.filter(CATEGORIE_EVENEMENT__id=categorie_id)
+        #qs_evenements = qs_evenements.filter(CATEGORIE_EVENEMENT__id=categorie_id)
 
     d['evenements'] = qs_evenements
 
@@ -125,8 +134,6 @@ def eventradius(request):
     latitude = float(request.GET['latitude'])
     longitude = float(request.GET['longitude'])
     km = float(request.GET['km'])
-
-    print [latitude, longitude, latitude, km]
 
     evenements = Evenement.objects.raw( sql, [latitude, longitude, latitude, km] )
 
