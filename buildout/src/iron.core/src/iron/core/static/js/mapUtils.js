@@ -129,9 +129,9 @@ function init () {
                   
             var markerGeolocate = new Korem.Feature.VMarker(e.point.x, e.point.y, {
                 icon: {
-                    url: "img/geolocate_dot.png",
-                    width: 38/2,
-                    height: 39/2
+                    url: "/static/img/geolocate_dot.png",
+                    width: 23,
+                    height: 24
                 },
                 popup: null
             });
@@ -207,28 +207,28 @@ function qs() {
 }
 
 function loadResult() {
-    $.getJSON('evenements.json', function(data) {
-        var items = [];
-        
-        $.each(data, function(key, val) {
-            if (val.model == "core.evenement") {
-                var lonlat = new OpenLayers.LonLat(val.fields.LONGITUDE,val.fields.LATITUDE).transform(new OpenLayers.Projection("EPSG:4326"), mapObject.map.getProjectionObject());
+    arrJSONParam = $.parseJSON(localStorage.searchResult);
+        for (i=0;i<arrJSONParam.length-1;i++) {
+                var lonlat = new OpenLayers.LonLat(arrJSONParam[i].LONGITUDE,arrJSONParam[i].LATITUDE).transform(new OpenLayers.Projection("EPSG:4326"), mapObject.map.getProjectionObject());
 				
 				popup = new OpenLayers.Popup("chicken",
-                   new OpenLayers.LonLat(val.fields.LONGITUDE,val.fields.LATITUDE).transform(new OpenLayers.Projection("EPSG:4326"), mapObject.map.getProjectionObject()),
-                   new OpenLayers.Size(200,200),
-                   "example popup",
+                   new OpenLayers.LonLat(arrJSONParam[i].LONGITUDE,arrJSONParam[i].LATITUDE).transform(new OpenLayers.Projection("EPSG:4326"), mapObject.map.getProjectionObject()),
+                   new OpenLayers.Size(200,150),
+                   "Titre <br> Description <br> <div style='position:absolute;bottom:10px;'><a>Directions</a> | <a>Details</a></div>",
                    true,
                    function(){this.hide();}
-				);
+               );
 				
 				mapObject.map.addPopup(popup);
 				
+				$(popup.div).css("top", $(popup.div).position().top-220);
+                $(popup.div).css("left", $(popup.div).position().left-115);
+				
                 var markerEvents = new Korem.Feature.VMarker(lonlat.lon, lonlat.lat, {
                     icon: {
-                        url: "img/event_marker.png",
-                        width: 54/2,
-                        height: 74/2
+                        url: "/static/img/event_marker.png",
+                        width: 38,
+                        height: 52
                     },
                     popup: popup
                 });
@@ -238,37 +238,7 @@ function loadResult() {
                 mapObject.layers.eventLayer.addFeatures([
                     markerEvents
                 ]);
-            }
-                
-                //icon=new OpenLayers.Icon('img/event_marker.png',size,offset);
-
-//            marker = new OpenLayers.Marker(new OpenLayers.LonLat(val.fields.LONGITUDE,val.fields.LATITUDE).transform(
-//                    new OpenLayers.Projection("EPSG:4326"), mapObject.map.getProjectionObject()), icon);
-//                    
-//            marker.events.register('tap', marker, function(evt) { alert(this.icon.url); OpenLayers.Event.stop(evt); });
-//            
-//            mapObject.layers.eventLayer.events.register('tap', mapObject.layers.eventLayer, function(evt) {
-//                alert("Description, Routing");
-//            });
-//            
-//            mapObject.layers.eventLayer.addMarker(marker);
-            
-//            var markerEvents = new Korem.Feature.VMarker(val.fields.LONGITUDE, val.fields.LATITUDE, {
-//                icon: {
-//                    url: "img/event_marker.png",
-//                    width: 54/2,
-//                    height: 74/2
-//                },
-//                popup: null
-//            });
-//                
-//            mapObject.layers.geolocateLayer.addFeatures([
-//                markerGeolocate, circle
-//            ]);
-            
-            
-        });
-    });
+        }
 }
 
 var directionsDisplay;

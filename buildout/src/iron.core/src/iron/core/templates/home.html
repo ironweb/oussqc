@@ -10,23 +10,23 @@
 {% endcomment %}
 <div id="sliderLarge" class="conteneur-image-accueil"> {% for e in EVENTGROUPS.0 %} <a href="/activite/{{e.id}}/"> <span class="legende-accueil">
 	<p>{{e.TITRE_EVENEMENT}}</p>
-	<img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"> </span> <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" /> </a> {% endfor %} </div>
+	<img src="{{STATIC_URL}}/img/img_ui/ico-viewEventHome.png"> </span> <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/intro_panels/slider1-{{forloop.counter}}.jpg" /> </a> {% endfor %} </div>
 <div class="double-slider">
 <div class="slider1wrapper">
 	<div id="sliderSmall1" class="conteneur-image-accueil "> {% for e in EVENTGROUPS.1 %} <a href="/activite/{{e.id}}/"> <span class="legende-accueil small">
 		<p>{{e.TITRE_EVENEMENT}}</p>
-		<img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"> </span> <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" /> </a> {% endfor %} </div>
+		<img src="{{STATIC_URL}}/img/img_ui/ico-viewEventHome.png"> </span> <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/intro_panels/slider2-{{forloop.counter}}.jpg" /> </a> {% endfor %} </div>
 </div>
 <div class="slider2wrapper">
 	<div id="sliderSmall2" class="conteneur-image-accueil "> {% for e in EVENTGROUPS.2 %} <a href="/activite/{{e.id}}/"> <span class="legende-accueil small">
 		<p>{{e.TITRE_EVENEMENT}}</p>
-		<img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"> </span> <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" /> </a> {% endfor %} </div>
+		<img src="{{STATIC_URL}}/img/img_ui/ico-viewEventHome.png"> </span> <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/intro_panels/slider3-{{forloop.counter}}.jpg" /> </a> {% endfor %} </div>
 </div></div>
 <script>
 		$(function(){
 			var random = new Array ();
 			for (var aleatoire = 0; aleatoire<= 2; aleatoire++) {
-				random[aleatoire] = Math.floor(Math.random()*10000+ 5000);
+				random[aleatoire] = Math.floor(Math.random()*5000+2000);
 			}
 			$('#sliderLarge').anythingSlider({
 				buildArrows         : false,      // If true, builds the forwards and backwards buttons

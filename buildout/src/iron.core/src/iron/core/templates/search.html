@@ -2,7 +2,7 @@
 
 {% block maincontent %}
 
-    <form action="/liste/" method="post" id="searchForm">
+    <form action="/liste/" method="post" id="searchForm" onsubmit="saveSearchParam();">
 
         <label for="quartier">Catégorie</label>
         <select name="categorie">

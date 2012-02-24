@@ -431,3 +431,19 @@ span.olGoogleAttribution.hybrid a, span.olGoogleAttribution.satellite a {
 .olControlEditingToolbar .olControlDrawFeaturePolygonItemActive {
     background-position: -26px -24px;
 }
+.olPopup {
+	opacity: 0.75;
+	border-radius : 10px;
+	box-shadow: 5px 5px 1px 1px black;
+        border: 1px solid #CCC /*{c-bup-border}*/;
+        background: #EEE /*{c-bup-background-color}*/;
+        font-weight: bold;
+        color: #444 /*{c-bup-color}*/;
+        text-shadow: 0 /*{c-bup-shadow-x}*/ 1px /*{c-bup-shadow-y}*/ 1px /*{c-bup-shadow-radius}*/ #F6F6F6 /*{c-bup-shadow-color}*/;
+        background-image: -webkit-gradient(linear, left top, left bottom, from( #FDFDFD /*{c-bup-background-start}*/), to( #EEE /*{c-bup-background-end}*/));
+        background-image: -webkit-linear-gradient( #FDFDFD /*{c-bup-background-start}*/, #EEE /*{c-bup-background-end}*/);
+        background-image: -moz-linear-gradient( #FDFDFD /*{c-bup-background-start}*/, #EEE /*{c-bup-background-end}*/);
+        background-image: -ms-linear-gradient( #FDFDFD /*{c-bup-background-start}*/, #EEE /*{c-bup-background-end}*/);
+        background-image: -o-linear-gradient( #FDFDFD /*{c-bup-background-start}*/, #EEE /*{c-bup-background-end}*/);
+        background-image: linear-gradient( #FDFDFD /*{c-bup-background-start}*/, #EEE /*{c-bup-background-end}*/);
+}
