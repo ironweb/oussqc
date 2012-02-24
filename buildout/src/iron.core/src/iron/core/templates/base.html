@@ -4,6 +4,7 @@
 <title>Recherche</title>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="{{STATIC_URL}}css/main.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
 <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
@@ -11,12 +12,23 @@
 
 </head>
 <body>
-<div data-role="page" data-add-back-btn="true" data-back-btn-text="Retour">
-    <div data-role="header">
-        <h1>ouss-QC</h1>
-        {% if not hide_search_button %}
-        <a href="/search/" class="ui-btn-right" data-icon="search" data-role="button">Recherche</a>
+
+<div data-role="page">
+    <div data-role="header" id="entete">
+
+        {% if back_url %}
+        <div><a href="{{back_url}}" id="boutonHeaderBack" class="bouton retour">Retour</a></div>
         {% endif %}
+        <h1>ouss-QC</h1>
+        <div>
+            {% if result_display_mode %}
+            <a href="/{{result_display_mode}}/" id="boutonHeaderListe" class="bouton {{result_display_mode}}">Liste</a>
+            {% endif %}
+
+            {% if not hide_search_button %}
+            <a href="/search/" id="boutonHeaderSearch" class="bouton recherche">Recherche</a>
+            {% endif %}
+        </div>
     </div>
     <!-- /header -->
 

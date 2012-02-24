@@ -21,10 +21,16 @@ ARR = (
 )
 
 def home(request):
+    '''
+    Page d'accueil
+    '''
     d = {}
+    d['page_id'] = 'home'
+
     qs_evenements = Evenement.objects.all().order_by('?')[:3]
     d['evenements'] = qs_evenements
     d['e'] = qs_evenements[0]
+
     c = RequestContext(request, d)
     return render_to_response('home.html', c)
 
@@ -40,6 +46,8 @@ def results(request, mode='liste'):
     qs_evenements = Evenement.objects.all()[:10]
     d['evenements'] = qs_evenements
     c = RequestContext(request, d)
+
+    d['result_display_mode'] = {'liste':'map', 'map':'liste'}[mode]
 
     # liste ou map
     return render_to_response(mode+'.html', c)
@@ -80,8 +88,7 @@ def search(request, categorie_id=None):
     # le bouton "recherche" n'est pas pertinent si on est déjà dans la recherche
     d['hide_search_button'] = qs_evenements
 
-    for e in qs_evenements:
-        print e
+    #for e in qs_evenements: print e
 
     c = RequestContext(request, d)
 
