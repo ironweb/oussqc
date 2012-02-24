@@ -1,5 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
+body > div.accueil #boutonHeaderBack {display:none;}
 
 /*GÉNÉRAL*/
 

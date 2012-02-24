@@ -11,8 +11,8 @@ def settings(request):
         '/search/':'/',
         '/activite/':'/liste/',
     }
-    print request.META['PATH_INFO']
-    res['back_url'] = D.get( request.META['PATH_INFO'] )
+    #print request.META['PATH_INFO']
+    #res['back_url'] = D.get( request.META['PATH_INFO'] )
 
 
     return res

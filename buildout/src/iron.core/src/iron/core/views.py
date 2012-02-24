@@ -20,12 +20,12 @@ ARR = (
     'Sainte-Foy–Sillery–Cap-Rouge'
 )
 
-def home(request):
+def accueil(request):
     '''
     Page d'accueil
     '''
     d = {}
-    d['page_id'] = 'home'
+    d['page_id'] = 'accueil'
 
     qs_evenements = Evenement.objects.all().order_by('?')[:3]
     d['evenements'] = qs_evenements
@@ -34,40 +34,13 @@ def home(request):
     c = RequestContext(request, d)
     return render_to_response('home.html', c)
 
-def category(request):
-    qs = Categorie.objects.all().order_by('UID')
-    d = {'categories' : qs}
-    c = RequestContext(request, d)
-    return render_to_response('category.html', c)
-
-def results(request, mode='liste'):
-
-    d = {}
-    qs_evenements = Evenement.objects.all()[:10]
-    d['evenements'] = qs_evenements
-    c = RequestContext(request, d)
-
-    d['result_display_mode'] = {'liste':'map', 'map':'liste'}[mode]
-
-    # liste ou map
-    return render_to_response(mode+'.html', c)
-
-def activite(request, event_id):
-    d = {}
-    d['evenement'] = Evenement.objects.get(id=event_id)
-    c = RequestContext(request, d)
-    return render_to_response('activite.html', c)
-
-def search(request, categorie_id=None):
+def recherche(request, categorie_id=None):
 
     qs = Categorie.objects.all().order_by('UID')
     qs_evenements = Evenement.objects.all()
 
     d = {'categories' : qs, 'selected_categorie_id': categorie_id, 'ARR': ARR}
-    #print 'before', len(qs_evenements)
-
-    # par arrondissement
-    #print arr
+    d['page_id'] = 'recherche'
     
     # par catégorie
     if categorie_id is not None:
@@ -88,13 +61,39 @@ def search(request, categorie_id=None):
     # le bouton "recherche" n'est pas pertinent si on est déjà dans la recherche
     d['hide_search_button'] = qs_evenements
 
-    #for e in qs_evenements: print e
-
     c = RequestContext(request, d)
 
-    print c['STATIC_URL']
-    
     return render_to_response('search.html', c)
+
+'''
+def category(request):
+    qs = Categorie.objects.all().order_by('UID')
+    d = {'categories' : qs}
+    c = RequestContext(request, d)
+    return render_to_response('category.html', c)
+'''
+
+def resultats(request, mode='liste'):
+
+    d = {}
+    d['page_id'] = mode
+    d['result_display_mode'] = {'liste':'map', 'map':'liste'}[mode]
+
+    qs_evenements = Evenement.objects.all()[:10]
+    d['evenements'] = qs_evenements
+    c = RequestContext(request, d)
+
+
+    # liste ou map
+    return render_to_response(mode+'.html', c)
+
+def activite(request, event_id):
+    d = {}
+    d['page_id'] = 'activite'
+    d['evenement'] = Evenement.objects.get(id=event_id)
+    c = RequestContext(request, d)
+    return render_to_response('activite.html', c)
+
 
 
 def screen(request, screen_no):

@@ -8,17 +8,16 @@
 <link rel="stylesheet" href="{{STATIC_URL}}css/main.css" />
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
 <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="{{STATIC_URL}}js/main.js"></script>
 <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
 
 </head>
 <body>
 
-<div data-role="page">
+<div data-role="page" class="{{page_id}}">
     <div data-role="header" id="entete">
 
-        {% if back_url %}
-        <div><a href="{{back_url}}" id="boutonHeaderBack" class="bouton retour">Retour</a></div>
-        {% endif %}
+        <div><a href="#" id="boutonHeaderBack" class="bouton retour">Retour</a></div>
         <h1>ouss-QC</h1>
         <div>
             {% if result_display_mode %}
@@ -26,7 +25,7 @@
             {% endif %}
 
             {% if not hide_search_button %}
-            <a href="/search/" id="boutonHeaderSearch" class="bouton recherche">Recherche</a>
+            <a href="/recherche/" id="boutonHeaderSearch" class="bouton recherche">Recherche</a>
             {% endif %}
         </div>
     </div>
