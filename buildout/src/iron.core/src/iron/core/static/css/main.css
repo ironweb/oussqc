@@ -1,8 +1,54 @@
-@charset "UTF-8";
 /* CSS Document */
 
-.similaire-image img {
-	width:100%;
-	height:auto;
-	padding:2% !important;
+/*GÉNÉRAL*/
+h1,h2,.legende-accueil {
+    font-family: 'Open Sans', sans-serif;
+    font-size:30px; /*a mettre en EM*/
+    color:#FFF;
 }
+.small {
+    font-size:28px; /*a mettre en EM*/
+}
+
+.similaire-image img {
+    width:100%;
+    height:auto;
+    padding:2% !important;
+}
+
+/*ACCUEIL*/
+.photo-accueil {
+    width:100%;
+    height:auto;
+}
+.conteneur-image-accueil {
+    position:relative;
+    height:300px;   
+}
+.haut {
+    width:auto;
+    height:100%;
+}
+.legende-accueil {
+    height:90px;
+    width:100%;
+    background:rgba(0, 0, 0, 0.6);
+    margin:0;
+    position:absolute;
+    bottom:0;
+}
+    
+.legende-accueil img {
+    float:right;
+    position:relative;
+    top:50%;
+    margin:-12px;
+    padding: 0 20px;
+}
+.legende-accueil p{
+    float:left;
+    padding:20px;
+    margin:0;
+}
+
+    

@@ -3,7 +3,7 @@ from django.conf.urls.defaults import patterns, url, include
 
 urlpatterns = patterns('iron.core.views',
     ('^$', 'home'),
-    ('^search/$', 'search'),
+    url('^search/$', 'search', name='recherche'),
     url('^list/$', 'results', {'mode':'liste'} ),
     url('^map/$', 'results', {'mode': 'map'}),
     ('^activite/(\d+)/$', 'activite'),

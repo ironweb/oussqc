@@ -11,9 +11,12 @@
 
 </head>
 <body>
-<div data-role="page">
+<div data-role="page" data-add-back-btn="true" data-back-btn-text="Retour">
     <div data-role="header">
         <h1>ouss-QC</h1>
+        {% if not hide_search_button %}
+        <a href="/search/" class="ui-btn-right" data-icon="search" data-role="button">Recherche</a>
+        {% endif %}
     </div>
     <!-- /header -->
 

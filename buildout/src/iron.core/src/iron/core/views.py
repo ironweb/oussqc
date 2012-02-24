@@ -22,7 +22,9 @@ ARR = (
 
 
 def home(request):
-    return render_to_response('home.html')
+    
+    c = RequestContext(request)
+    return render_to_response('home.html', c)
 
 def category(request):
     qs = Categorie.objects.all().order_by('UID')
@@ -64,6 +66,9 @@ def search(request, categorie_id=None):
         qs_evenements = qs_evenements.filter(CATEGORIE_EVENEMENT__id=categorie_id)
 
     d['evenements'] = qs_evenements
+
+    # le bouton "recherche" n'est pas pertinent si on est déjà dans la recherche
+    d['hide_search_button'] = qs_evenements
 
     for e in qs_evenements:
         print e
