@@ -1,7 +1,3 @@
-function loadQuartier (select) {
-	console.debug(select);
-}
-
 var red = {};
 
 red.goBack = function(){

@@ -2,54 +2,27 @@
 
 {% block maincontent %}
 
-    {% comment %}
-    <script src="{{STATIC_URL}}lib/AnythingSlider/js/jquery.anythingslider.min.js"></script>
-    <script src="{{STATIC_URL}}lib/AnythingSlider/js/jquery.anythingslider.fx.min.js"></script>
-    <script src="{{STATIC_URL}}js/home.js"></script>
-    <script src="{{STATIC_URL}}lib/AnythingSlider/css/anythingslider.css"></script>
-    {% endcomment %}
-    <div id="sliderLarge" class="conteneur-image-accueil">
-
-        {% for e in EVENTGROUPS.0 %}
-        <a href="/activite/{{e.id}}/">
-        <span class="legende-accueil">
-            <p>{{e.TITRE_EVENEMENT}}</p>
-            <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png">
-        </span>
-        <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" />
-        </a>
-        {% endfor %}
-
-    </div>
-
-    <div class="ui-grid-a">
-        <div id="sliderSmall1" class="ui-block-a conteneur-image-accueil ">
-
-            {% for e in EVENTGROUPS.1 %}
-            <a href="/activite/{{e.id}}/">
-            <span class="legende-accueil small">
-                <p>{{e.TITRE_EVENEMENT}}</p>
-                <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png">
-            </span>
-            <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" />
-            </a>
-            {% endfor %}
-
-        </div>
-
-        <div id="sliderSmall2" class="ui-block-b conteneur-image-accueil ">
-            {% for e in EVENTGROUPS.2 %}
-            <a href="/activite/{{e.id}}/">
-            <span class="legende-accueil small">
-                <p>{{e.TITRE_EVENEMENT}}</p>
-                <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png">
-            </span>
-            <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" />
-            </a>
-            {% endfor %}
-        </div>
-    </div><!-- /grid-a -->
-	<script>
+    {% comment %} 
+<script src="{{STATIC_URL}}lib/AnythingSlider/js/jquery.anythingslider.min.js"></script> 
+<script src="{{STATIC_URL}}lib/AnythingSlider/js/jquery.anythingslider.fx.min.js"></script> 
+<script src="{{STATIC_URL}}js/home.js"></script> 
+<script src="{{STATIC_URL}}lib/AnythingSlider/css/anythingslider.css"></script> 
+{% endcomment %}
+<div id="sliderLarge" class="conteneur-image-accueil"> {% for e in EVENTGROUPS.0 %} <a href="/activite/{{e.id}}/"> <span class="legende-accueil">
+	<p>{{e.TITRE_EVENEMENT}}</p>
+	<img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"> </span> <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" /> </a> {% endfor %} </div>
+<div class="double-slider">
+<div class="slider1wrapper">
+	<div id="sliderSmall1" class="conteneur-image-accueil "> {% for e in EVENTGROUPS.1 %} <a href="/activite/{{e.id}}/"> <span class="legende-accueil small">
+		<p>{{e.TITRE_EVENEMENT}}</p>
+		<img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"> </span> <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" /> </a> {% endfor %} </div>
+</div>
+<div class="slider2wrapper">
+	<div id="sliderSmall2" class="conteneur-image-accueil "> {% for e in EVENTGROUPS.2 %} <a href="/activite/{{e.id}}/"> <span class="legende-accueil small">
+		<p>{{e.TITRE_EVENEMENT}}</p>
+		<img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"> </span> <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" /> </a> {% endfor %} </div>
+</div></div>
+<script>
 		$(function(){
 			var random = new Array ();
 			for (var aleatoire = 0; aleatoire<= 2; aleatoire++) {
@@ -81,7 +54,5 @@
 				delay               : random[2],
 			});
 		});
-	</script>
-    
-
-{% endblock %}
+	</script> 
+{% endblock %} 
