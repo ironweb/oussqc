@@ -11,7 +11,7 @@ class Evenement(models.Model):
 
     UID = models.CharField(max_length=200)
 
-    CATEGORIE_EVENEMENT = models.ForeignKey(Categorie)
+    CATEGORIES = models.ManyToManyField(Categorie)
 
     TITRE_EVENEMENT = models.CharField(max_length=100)
     DEBUT_EVENEMENT = models.DateField()
@@ -60,7 +60,8 @@ class Evenement(models.Model):
 '''
 
 class Loisir(models.Model):
-    UID = models.CharField(max_length=200)
+
+    ID = models.AutoField(primary_key=True)
 
     CATEGORIE = models.ForeignKey(Categorie)
 
@@ -75,7 +76,7 @@ class Loisir(models.Model):
     ADRESSE = models.CharField(max_length=100)
 
     # Pour ceux avec tarif.
-    TARIF_BASE = models.DecimalField(max_digits=5, decimal_places=2, null=True)
+    TARIF_BASE = models.DecimalField(max_digits=7, decimal_places=2, null=True)
 
 class Horaire(models.Model):
     LOISIR = models.ForeignKey(Loisir)
