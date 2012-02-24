@@ -135,6 +135,9 @@ def eventsearch(request):
 
     evenements = query.all()
 
+    for e in evenements:
+        e.HORAIRE_EVENEMENT.replace("\n", "<br />")
+
     serializer = serializers.get_serializer("json")()
     data = serializer.serialize(evenements)
     return HttpResponse(data)
