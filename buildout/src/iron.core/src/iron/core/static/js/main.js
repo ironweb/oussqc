@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 function loadQuartier (select) {
 	console.debug(select);
 }
@@ -9,11 +8,12 @@ red.goBack = function(){
 }
 
 red.getCurPage = function(){
-    return $('body > div').attr('class').split(' ')[0];
+    return $('.ui-page-active').attr('class').split(' ')[0];
 }
 
 red.getPrevPage = function(){
     var curPage = red.getCurPage();
+    console.log(curPage);
     switch(curPage){
         case 'recherche':
             return '/';
@@ -34,20 +34,20 @@ red.getPrevPage = function(){
 }
 
 
+/*
 $( function(){
 
     $('#boutonHeaderBack').click( function(){
-
         var prevPage = red.getPrevPage();
         window.location.href = prevPage;
 
     });
 
 });
+*/
 
 $(document).bind("mobileinit", function(){
 	$(document).bind("pageshow", function( event, data ){
-		alert("wtf");
 	});
 });
 
