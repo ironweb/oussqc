@@ -20,7 +20,6 @@ ARR = (
     'Sainte-Foy–Sillery–Cap-Rouge'
 )
 
-
 def home(request):
     d = {}
     qs_evenements = Evenement.objects.all().order_by('?')[:3]
@@ -65,13 +64,7 @@ def recherche(request, categorie_id=None):
 
     return render_to_response('search.html', c)
 
-def evenements(request):
-    serializer = serializers.get_serializer("json")()
-    objects = Evenement.objects.all()
-    data = serializer.serialize(objects)
-    return HttpResponse(data)
-
-def eventsearch(request):
+def find_events(params):
 
     query = Evenement.objects
 
@@ -82,12 +75,12 @@ def eventsearch(request):
         'COMPLEMENT_LIEU_EVENEMENT',
     ]
 
-    if 'district' in request.GET:
-        query = query.filter(NOM_ARRONDISSEMENT = request.GET['district'])
+    if 'district' in params:
+        query = query.filter(NOM_ARRONDISSEMENT = params['district'])
 
-    if 'keyword' in request.GET:
+    if 'keyword' in params:
 
-        term = request.GET['keyword']
+        term = params['keyword']
 
         field = keyword_fields.pop() + "__contains"
 
@@ -99,20 +92,17 @@ def eventsearch(request):
 
     evenements = query.all()
 
-    for e in evenements:
-        e.HORAIRE_EVENEMENT.replace("\n", "<br />")
+    return evenements
+
+def eventsearch(request):
+
+    evenements = find_events(request.GET)
 
     serializer = serializers.get_serializer("json")()
     data = serializer.serialize(evenements)
     return HttpResponse(data)
 
-def quartiers(request, arr_index):
-    arr_index = int(arr_index)
-    quartiers = ZONES[arr_index]
-    import json
-    data = json.dumps(quartiers)
-
-def eventradius(request):
+def find_events_in_radius(longitude, latitude, km):
 
     sql = """
     SELECT * FROM core_evenement WHERE
@@ -129,36 +119,55 @@ def eventradius(request):
 
     evenements = Evenement.objects.raw( sql, [latitude, longitude, latitude, km] )
 
+    return evenements
+
+def eventradius(request):
+
+    if 'latitude' not in request.GET and 'longitude' not in request.GET:
+        return HttpResponseBadRequest('must pass latitude and longitude')
+
+    latitude = float(request.GET['latitude'])
+    longitude = float(request.GET['longitude'])
+    km = float(request.GET['km'])
+
+    evenements = find_events_in_radius(latitude, longitude, km)
+
     serializer = serializers.get_serializer("json")()
     data = serializer.serialize(evenements)
     return HttpResponse(data)
 
+def quartiers(request, arr_index):
+    arr_index = int(arr_index)
+    quartiers = ZONES[arr_index]
+    import json
+    data = json.dumps(quartiers)
+
 def greg_mess(request, event_id):
 
-	d = {}
+    d = {}
 
-	d['evenement'] = Evenement.objects.get(id=event_id)
+    d['evenement'] = Evenement.objects.get(id=event_id)
 
-	sql = """
-	    SELECT
-	        *
-	    FROM
-	        core_evenement
-	    WHERE
-	        id IN (
-	            SELECT evenement_id
-	            FROM core_evenement_CATEGORIES
-	            WHERE categorie_id = %s
-	            AND evenement_id != %s
-	        )
-	    ORDER BY RAND()
-	    LIMIT 5
-	"""
+    sql = """
+        SELECT
+            *
+        FROM
+            core_evenement
+        WHERE
+            id IN (
+                SELECT evenement_id
+                FROM core_evenement_CATEGORIES
+                WHERE categorie_id = %s
+                AND evenement_id != %s
+            )
+        ORDER BY RAND()
+        LIMIT 5
+    """
 
-	suggestions = Evenement.objects.raw( sql, [ d['evenement'].CATEGORIES.iterator().next().id, event_id ] )
+    suggestions = Evenement.objects.raw( sql, [ d['evenement'].CATEGORIES.iterator().next().id, event_id ] )
 
-	d['suggestions'] = suggestions
+    d['suggestions'] = suggestions
 
-	c = RequestContext(request, d)
-	return render_to_response('activite.html', c)
+    c = RequestContext(request, d)
+    return render_to_response('activite.html', c)
 
