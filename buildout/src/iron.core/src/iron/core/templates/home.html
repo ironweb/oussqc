@@ -2,10 +2,35 @@
 
 {% block maincontent %}
 
-    <div class="conteneur-image-accueil"><span class="legende-accueil"><p>Course de vélo</p><img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"></span><a href="/activite/1/"><img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" /></a></div>
+    <div class="conteneur-image-accueil">
+        <a href="/activite/{{evenements.0.id}}/">
+        <span class="legende-accueil">
+            <p>{{evenements.0.TITRE_EVENEMENT}}</p>
+            <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png">
+        </span>
+        <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" />
+        </a>
+    </div>
+
     <div class="ui-grid-a">
-    <div class="ui-block-a conteneur-image-accueil "><span class="legende-accueil small"><p>Madonna</p><img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"></span><a href="/activite/1/"><img class="photo-accueil haut"src="{{STATIC_URL}}/img/img_activite/crowdJaune.jpg"></a></div>
-    <div class="ui-block-b conteneur-image-accueil "><span class="legende-accueil small"><p>Festival de blues</p><img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"></span><a href="/activite/1/"><img class="photo-accueil haut"src="{{STATIC_URL}}/img/img_activite/crowdBleu.jpg"></a></div>
+        <div class="ui-block-a conteneur-image-accueil ">
+            <a href="/activite/{{evenements.1.id}}/">
+            <span class="legende-accueil small">
+            <p>{{evenements.1.TITRE_EVENEMENT}}</p>
+            <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"></span>
+            <img class="photo-accueil haut"src="{{STATIC_URL}}/img/img_activite/crowdJaune.jpg">
+            </a>
+        </div>
+
+        <div class="ui-block-b conteneur-image-accueil ">
+            <a href="/activite/{{evenements.2.id}}/">
+            <span class="legende-accueil small">
+            <p>{{evenements.2.TITRE_EVENEMENT}}</p>
+            <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png">
+            </span><a href="/activite/{{evenements.2.id}}/">
+            <img class="photo-accueil haut"src="{{STATIC_URL}}/img/img_activite/crowdBleu.jpg"></a>
+            </a>
+        </div>
     </div><!-- /grid-a -->
     
 

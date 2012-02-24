@@ -22,8 +22,10 @@ ARR = (
 
 
 def home(request):
-    
-    c = RequestContext(request)
+    d = {}
+    qs_evenements = Evenement.objects.all().order_by('?')[:3]
+    d['evenements'] = qs_evenements
+    c = RequestContext(request, d)
     return render_to_response('home.html', c)
 
 def category(request):
@@ -47,7 +49,6 @@ def activite(request, event_id):
     d['evenement'] = Evenement.objects.get(id=event_id)
     c = RequestContext(request, d)
     return render_to_response('activite.html', c)
-
 
 def search(request, categorie_id=None):
 
