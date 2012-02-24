@@ -55,6 +55,7 @@ class LoisirParser(qcparser.SimpleParser):
 
     def get_tarif(self, node):
         tarif = self.get_node_text(node, "TARIF_BASE")
+        print "tarif", tarif
 
         if tarif is None:
             return None
@@ -154,7 +155,8 @@ if __name__ == "__main__":
     categories = category_parser.categorie_loisirs(loisirs)
 
     for c in categories:
-        if Categorie.objects.filter(UID=c).count() == 0:
+
+        if c is not None and Categorie.objects.filter(UID=c).count() == 0:
             model = Categorie()
             model.UID = c
             model.save()
