@@ -1,15 +1,31 @@
 {% extends "base.html" %}
 
 {% block maincontent %}
-
+	
     <div data-role="content">
         <ul data-role="listview" data-theme="c">
-
+		<script>
+			jsonResult = [];
+		</script>
             {% for e in evenements %}
-            <li><a href="/activite/{{ e.id }}/"><img class="logo-activite" src="{{STATIC_URL}}img/icon_activite/black.jpg"/><h2 class="titre-activite">{{e.TITRE_EVENEMENT}}</h2><p class="description_activite">{{e.get_short_description}}</p></a></li>
-            {% endfor %}
+				<li><a href="/activite/{{ e.id }}/"><img class="logo-activite" src="{{STATIC_URL}}img/icon_activite/black.jpg"/><h2 class="titre-activite">{{e.TITRE_EVENEMENT}}</h2><p class="description_activite">{{e.get_short_description}}</p></a></li>
+				
+				<script>
+					jsonResult.push({
+						UID							: "{{e.UID}}",
+						CATEGORIES					: "{{e.CATEGORIES}}",
+						TITRE_EVENEMENT				: "{{e.TITRE_EVENEMENT}}",
+						LONGITUDE 					: "{{e.LONGITUDE}}",
+						LATITUDE 					: "{{e.LATITUDE}}"
+					})
+				</script>
+			{% endfor %}
         </ul>
 
     </div>
+	
+	<script>
+		localStorage.setItem('searchResult', JSON.stringify(jsonResult));
+	</script>
 
 {% endblock %}

@@ -4,7 +4,15 @@
  */
 
 function init () {
-    mapObject.map = new OpenLayers.Map('map');
+    mapObject.map = new OpenLayers.Map({div : 'map', controls: [
+            new OpenLayers.Control.Attribution(),
+            new OpenLayers.Control.TouchNavigation({
+                dragPanOptions: {
+                    enableKinetic: true
+                }
+            }),
+            new OpenLayers.Control.ZoomPanel()
+        ]});
 
     var gmap = new OpenLayers.Layer.Google("Google Streets",  {numZoomLevels: 20}); 
     var ghyb = new OpenLayers.Layer.Google("Google Hybrid", {type: google.maps.MapTypeId.HYBRID, numZoomLevels: 20});
@@ -15,13 +23,18 @@ function init () {
             strokeWidth: 0
     };
 
-    mapObject.layers.geolocateLayer = new OpenLayers.Layer.Vector('vector');
-    mapObject.layers.eventLayer = new OpenLayers.Layer.Markers("Markers");
+    mapObject.layers.geolocateLayer = new Korem.Layer.Vector("KVector");
+
+    mapObject.layers.eventLayer = new Korem.Layer.Vector("KVector");
+    mapObject.layers.eventLayer.clearClickHandlers();
+    mapObject.layers.eventLayer.addFeatureClickHandler(null, function (evt) {
+        alert("goto Details with : " + evt.feature);
+    });
 
     mapObject.layers.kmlArrondLayer = new OpenLayers.Layer.Vector("KML", {
             strategies: [new OpenLayers.Strategy.Fixed()],
             protocol: new OpenLayers.Protocol.HTTP({
-                    url: "http://s1.www.sylvain.l3i.ca/rouges-lm/ARROND.KML",
+                    url: "ARROND.KML",
                     format: new OpenLayers.Format.ArrondKML({
                             extractStyles: true, 
                             extractAttributes: true,
@@ -33,7 +46,7 @@ function init () {
     mapObject.layers.kmlQuartLayer = new OpenLayers.Layer.Vector("KML", {
             strategies: [new OpenLayers.Strategy.Fixed()],
             protocol: new OpenLayers.Protocol.HTTP({
-                    url: "http://s1.www.sylvain.l3i.ca/rouges-lm/QUARTIER.KML",
+                    url: "QUARTIER.KML",
                     format: new OpenLayers.Format.QuartKML({
                             extractStyles: true, 
                             extractAttributes: true,
@@ -113,17 +126,15 @@ function init () {
                 {},
                 style
             );
-                
-            var markerGeolocate = new OpenLayers.Feature.Vector(e.point);
-
-            markerGeolocate.id ="location";
-
-            markerGeolocate.style = {
-                externalGraphic: "img/geolocate_dot.png",
-                graphicOpacity: 1.0,
-                graphicWith: 38/2,
-                graphicHeight: 39/2
-            }
+                  
+            var markerGeolocate = new Korem.Feature.VMarker(e.point.x, e.point.y, {
+                icon: {
+                    url: "img/geolocate_dot.png",
+                    width: 38/2,
+                    height: 39/2
+                },
+                popup: null
+            });
                 
             mapObject.layers.geolocateLayer.addFeatures([
                 markerGeolocate, circle
@@ -149,6 +160,8 @@ function init () {
     firstGeolocation = true;
     geolocateObject.deactivate();
     if (qsParm["geocode"]) geolocateObject.activate();
+    
+    directionsService = new google.maps.DirectionsService();
 }
 
 function findPoly(type, field, x,y) {
@@ -185,28 +198,77 @@ function qs() {
 }
 
 function loadResult() {
-//    $.getJSON('evenements.json', function(data) {
-//        var items = [];
-//        
-//        $.each(data, function(key, val) {
-//            console.debug(key + " : " + val);
-//            var size = new OpenLayers.Size(54/2,74/2);
-//            var offset = new OpenLayers.Pixel(-(size.w/2), -size.h);
-//            var icon;
-//            if (val.model == "core.evenement") icon=new OpenLayers.Icon('img/event_marker.png',size,offset);
-//
+    $.getJSON('evenements.json', function(data) {
+        var items = [];
+        
+        $.each(data, function(key, val) {
+            if (val.model == "core.evenement") {
+                var lonlat = new OpenLayers.LonLat(val.fields.LONGITUDE,val.fields.LATITUDE).transform(new OpenLayers.Projection("EPSG:4326"), mapObject.map.getProjectionObject());
+
+                var markerEvents = new Korem.Feature.VMarker(lonlat.lon, lonlat.lat, {
+                    icon: {
+                        url: "img/event_marker.png",
+                        width: 54/2,
+                        height: 74/2
+                    },
+                    popup: null
+                });
+                
+                mapObject.layers.eventLayer.addFeatures([
+                    markerEvents
+                ]);
+            }
+                
+                //icon=new OpenLayers.Icon('img/event_marker.png',size,offset);
+
 //            marker = new OpenLayers.Marker(new OpenLayers.LonLat(val.fields.LONGITUDE,val.fields.LATITUDE).transform(
 //                    new OpenLayers.Projection("EPSG:4326"), mapObject.map.getProjectionObject()), icon);
 //                    
-//            marker.events.register('click', marker, function(evt) { alert(this.icon.url); OpenLayers.Event.stop(evt); });
+//            marker.events.register('tap', marker, function(evt) { alert(this.icon.url); OpenLayers.Event.stop(evt); });
 //            
-//            mapObject.layers.eventLayer.events.register('click', mapObject.layers.eventLayer, function(evt) {
+//            mapObject.layers.eventLayer.events.register('tap', mapObject.layers.eventLayer, function(evt) {
 //                alert("Description, Routing");
 //            });
 //            
 //            mapObject.layers.eventLayer.addMarker(marker);
-//        });
-//    });
+            
+//            var markerEvents = new Korem.Feature.VMarker(val.fields.LONGITUDE, val.fields.LATITUDE, {
+//                icon: {
+//                    url: "img/event_marker.png",
+//                    width: 54/2,
+//                    height: 74/2
+//                },
+//                popup: null
+//            });
+//                
+//            mapObject.layers.geolocateLayer.addFeatures([
+//                markerGeolocate, circle
+//            ]);
+            
+            
+        });
+    });
+}
+
+var directionsDisplay;
+var directionsService;
+
+function testDirection() {
+    directionsDisplay = new google.maps.DirectionsRenderer();
+    directionsDisplay.setMap(mapObject.map.baseLayer.mapObject);
+    
+    var start = "Quebec, QC";
+    var end = "Montreal, QC";
+    var request = {
+        origin:start,
+        destination:end,
+        travelMode: google.maps.TravelMode.DRIVING
+    };
+    directionsService.route(request, function(result, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(result);
+        }
+    });
 }
 
 //function unload() {

@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 function loadQuartier (select) {
 	console.debug(select);
 }
@@ -43,3 +44,13 @@ $( function(){
     });
 
 });
+
+$(document).bind("mobileinit", function(){
+	$(document).bind("pageshow", function( event, data ){
+		alert("wtf");
+	});
+});
+
+function saveSearchParam() {
+	localStorage.setItem('searchParam', JSON.stringify($("#searchForm").serializeArray()));
+}

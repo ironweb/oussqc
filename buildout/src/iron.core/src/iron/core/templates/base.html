@@ -10,6 +10,11 @@
 <script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
 <script src="{{STATIC_URL}}js/main.js"></script>
 <script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+<script src="{{STATIC_URL}}/js/mapUtils.js"></script>
+<script src="{{STATIC_URL}}/js/OpenLayers-2.11/OpenLayers.mobile.js"></script>
+<script src="{{STATIC_URL}}/js/customOLClass/ArrondKML.js"></script>
+<script src="{{STATIC_URL}}/js/customOLClass/QuartKML.js"></script>
+<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3.4&sensor=false"></script>
 
 </head>
 <body>
@@ -28,6 +33,8 @@
             <a href="/recherche/" id="boutonHeaderSearch" class="bouton recherche">Recherche</a>
             {% endif %}
         </div>
+		<a href="/map/" class="ui-btn-right" data-icon="search" data-role="button" style="margin-right: 100px;">Maps</a>
+        <a href="/search/" class="ui-btn-right" data-icon="search" data-role="button">Recherche</a>
     </div>
     <!-- /header -->
 
