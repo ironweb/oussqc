@@ -20,19 +20,19 @@ ARR = (
     'Sainte-Foy–Sillery–Cap-Rouge'
 )
 
-def accueil(request):
-    '''
-    Page d'accueil
-    '''
-    d = {}
-    d['page_id'] = 'accueil'
 
+def home(request):
+    d = {}
     qs_evenements = Evenement.objects.all().order_by('?')[:3]
     d['evenements'] = qs_evenements
-    d['e'] = qs_evenements[0]
-
     c = RequestContext(request, d)
     return render_to_response('home.html', c)
+
+def activite(request, event_id):
+    d = {}
+    d['evenement'] = Evenement.objects.get(id=event_id)
+    c = RequestContext(request, d)
+    return render_to_response('activite.html', c)
 
 def recherche(request, categorie_id=None):
 
@@ -65,46 +65,11 @@ def recherche(request, categorie_id=None):
 
     return render_to_response('search.html', c)
 
-'''
-def category(request):
-    qs = Categorie.objects.all().order_by('UID')
-    d = {'categories' : qs}
-    c = RequestContext(request, d)
-    return render_to_response('category.html', c)
-'''
-
-def resultats(request, mode='liste'):
-
-    d = {}
-    d['page_id'] = mode
-    d['result_display_mode'] = {'liste':'map', 'map':'liste'}[mode]
-
-    qs_evenements = Evenement.objects.all()[:10]
-    d['evenements'] = qs_evenements
-    c = RequestContext(request, d)
-
-
-    # liste ou map
-    return render_to_response(mode+'.html', c)
-
-def activite(request, event_id):
-    d = {}
-    d['page_id'] = 'activite'
-    d['evenement'] = Evenement.objects.get(id=event_id)
-    c = RequestContext(request, d)
-    return render_to_response('activite.html', c)
-
-
-
-def screen(request, screen_no):
-    return HttpResponse(screen_no)
-
 def evenements(request):
     serializer = serializers.get_serializer("json")()
     objects = Evenement.objects.all()
     data = serializer.serialize(objects)
     return HttpResponse(data)
-
 
 def eventsearch(request):
 
@@ -136,12 +101,10 @@ def eventsearch(request):
 
     for e in evenements:
         e.HORAIRE_EVENEMENT.replace("\n", "<br />")
-        e.DESCRIPTION_EVENEMENT.replace("\n", "<br />")
 
     serializer = serializers.get_serializer("json")()
     data = serializer.serialize(evenements)
     return HttpResponse(data)
-
 
 def quartiers(request, arr_index):
     arr_index = int(arr_index)
@@ -169,4 +132,33 @@ def eventradius(request):
     serializer = serializers.get_serializer("json")()
     data = serializer.serialize(evenements)
     return HttpResponse(data)
+
+def greg_mess(request, event_id):
+
+	d = {}
+
+	d['evenement'] = Evenement.objects.get(id=event_id)
+
+	sql = """
+	    SELECT
+	        *
+	    FROM
+	        core_evenement
+	    WHERE
+	        id IN (
+	            SELECT evenement_id
+	            FROM core_evenement_CATEGORIES
+	            WHERE categorie_id = %s
+	            AND evenement_id != %s
+	        )
+	    ORDER BY RAND()
+	    LIMIT 5
+	"""
+
+	suggestions = Evenement.objects.raw( sql, [ d['evenement'].CATEGORIES.iterator().next().id, event_id ] )
+
+	d['suggestions'] = suggestions
+
+	c = RequestContext(request, d)
+	return render_to_response('activite.html', c)
 

@@ -9,6 +9,17 @@
 <a href="index.html" data-role="button">Touristique</a>
 <a href="index.html" data-role="button">Hotel</a>
 </div><h2 class="similaire-header">Vous aimerez aussi:</h2>
+
+<ul>
+
+{% for suggestion in suggestions %}
+    <li>
+    <a href="{% url activite suggestion.id %}">{{ suggestion.TITRE_EVENEMENT }}</a>
+    </li>
+{% endfor %}
+
+</ul>
+
 <div class="ui-grid-b">
     <div class=" similaire-image ui-block-a"><img src="{{STATIC_URL}}img/img_activite/placeHolder-FicheEvent_13.jpg"></div>
     <div class=" similaire-image ui-block-b"><img src="{{STATIC_URL}}img/img_activite/placeHolder-FicheEvent_11.jpg"></div>
