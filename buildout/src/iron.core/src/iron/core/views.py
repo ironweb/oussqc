@@ -20,7 +20,7 @@ ARR = (
     'Sainte-Foy–Sillery–Cap-Rouge'
 )
 
-def home(request):
+def accueil(request):
     d = {}
     d['page_id'] = 'accueil'
 
@@ -110,6 +110,20 @@ def find_events(params):
 
     return evenements
 
+
+def resultats(request, mode='liste'):
+
+    d = {}
+    d['page_id'] = mode
+    d['result_display_mode'] = {'liste':'map', 'map':'liste'}[mode]
+
+    qs_evenements = Evenement.objects.all()[:10]
+    d['evenements'] = qs_evenements
+    c = RequestContext(request, d)
+
+    # liste ou map
+    return render_to_response(mode+'.html', c)
+
 def eventsearch(request):
 
     evenements = find_events(request.GET)
@@ -152,7 +166,6 @@ def eventradius(request):
     data = serializer.serialize(evenements)
     return HttpResponse(data)
 
-<<<<<<< HEAD
 
 def QUARTIERS(request):
     f = open('/home/sylvain/rouges-lm/data/quartier_formatted.kml', 'r')
@@ -161,7 +174,7 @@ def QUARTIERS(request):
 def ARROND(request):
     f = open('/home/sylvain/rouges-lm/data/ARROND.KML', 'r')
     return HttpResponse(f.read())
-=======
+
 def quartiers(request, arr_index):
     arr_index = int(arr_index)
     quartiers = ZONES[arr_index]
@@ -196,5 +209,4 @@ def greg_mess(request, event_id):
 
     c = RequestContext(request, d)
     return render_to_response('activite.html', c)
->>>>>>> d65932cbd6992c82f6479557d176204fa0acff71
 
