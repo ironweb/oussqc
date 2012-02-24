@@ -70,6 +70,15 @@ conteneur-image-accueil a {
 	text-decoration:none;
 }
 
+.double-slider {
+	position:relative;
+}
+.slider1wrapper {
+	position:absolute;
+	right:0;
+}
+
+
 /*HEADER*/
 
 .retour {

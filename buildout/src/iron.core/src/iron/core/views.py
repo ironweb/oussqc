@@ -20,7 +20,7 @@ ARR = (
     'Sainte-Foy–Sillery–Cap-Rouge'
 )
 
-def home(request):
+def accueil(request):
     d = {}
     d['page_id'] = 'accueil'
 
@@ -109,6 +109,20 @@ def find_events(params):
     evenements = query.all()
 
     return evenements
+
+
+def resultats(request, mode='liste'):
+
+    d = {}
+    d['page_id'] = mode
+    d['result_display_mode'] = {'liste':'map', 'map':'liste'}[mode]
+
+    qs_evenements = Evenement.objects.all()[:10]
+    d['evenements'] = qs_evenements
+    c = RequestContext(request, d)
+
+    # liste ou map
+    return render_to_response(mode+'.html', c)
 
 def eventsearch(request):
 
