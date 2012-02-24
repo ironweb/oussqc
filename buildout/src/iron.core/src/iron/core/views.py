@@ -70,7 +70,7 @@ def search(request, categorie_id=None):
         categorie_id = %s)
         """
 
-        qs_evenements = Evenement.objects.raw(sql, [int(categorie_id)]
+        qs_evenements = Evenement.objects.raw(sql, [int(categorie_id)])
 
         d['selected_categorie_id'] = int(d['selected_categorie_id'])
         #qs_evenements = qs_evenements.filter(CATEGORIE_EVENEMENT__id=categorie_id)
