@@ -22,19 +22,17 @@
 <div data-role="page" class="{{page_id}}">
     <div data-role="header" id="entete">
 
-        <div><a href="#" id="boutonHeaderBack" class="bouton retour">Retour</a></div>
+        <div><a href="javascript:history.back();" id="boutonHeaderBack" class="bouton retour">Retour</a></div>
         <h1>ouss-QC</h1>
         <div>
             {% if result_display_mode %}
-            <a href="/{{result_display_mode}}/" id="boutonHeaderListe" class="bouton {{result_display_mode}}">Liste</a>
+            <div><a href="/{{result_display_mode}}/" id="boutonHeaderListe" class="bouton {{result_display_mode}}">Liste</a></div>
             {% endif %}
 
             {% if not hide_search_button %}
-            <a href="/recherche/" id="boutonHeaderSearch" class="bouton recherche">Recherche</a>
+            <div><a href="/recherche/" id="boutonHeaderSearch" class="bouton recherche">Recherche</a></div>
             {% endif %}
         </div>
-		<a href="/map/" class="ui-btn-right" data-icon="search" data-role="button" style="margin-right: 100px;">Maps</a>
-        <a href="/search/" class="ui-btn-right" data-icon="search" data-role="button">Recherche</a>
     </div>
     <!-- /header -->
 
