@@ -129,7 +129,7 @@ function init () {
                   
             var markerGeolocate = new Korem.Feature.VMarker(e.point.x, e.point.y, {
                 icon: {
-                    url: "img/geolocate_dot.png",
+                    url: "/static/img/geolocate_dot.png",
                     width: 23,
                     height: 24
                 },
@@ -226,7 +226,7 @@ function loadResult() {
 				
                 var markerEvents = new Korem.Feature.VMarker(lonlat.lon, lonlat.lat, {
                     icon: {
-                        url: "img/event_marker.png",
+                        url: "/static/img/event_marker.png",
                         width: 38,
                         height: 52
                     },

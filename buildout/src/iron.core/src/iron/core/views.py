@@ -24,14 +24,14 @@ def accueil(request):
     d = {}
     d['page_id'] = 'accueil'
 
-    qs_evenements = Evenement.objects.all().order_by('?')[:15]
+    qs_evenements = Evenement.objects.all().order_by('?')[:9]
 
     l_evenements = list(qs_evenements)
 
     L = []
     for x in range(3):
         l = []
-        for y in range(5):
+        for y in range(3):
             l.append( l_evenements.pop() )
         L.append(l)
 
