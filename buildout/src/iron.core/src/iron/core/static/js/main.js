@@ -53,6 +53,7 @@ $(document).bind("mobileinit", function(){
 	});
 	$(".map").live("pagehide", function( event, data ){
 		bindOrientationChange(resizeMap, false, null);
+    });
 });
 
 function saveSearchParam() {

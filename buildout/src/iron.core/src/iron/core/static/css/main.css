@@ -5,11 +5,11 @@
 
 h1, h2, .legende-accueil {
 	font-family: 'Open Sans', sans-serif;
-	font-size:30px; /*a mettre en EM*/
+	font-size:18px; /*a mettre en EM*/
 	color:#FFF;
 }
 .small {
-	font-size:28px; /*a mettre en EM*/
+	font-size:17px; /*a mettre en EM*/
 }
 .similaire-image img {
 	width:100%;
@@ -26,12 +26,18 @@ h1, h2, .legende-accueil {
 	background: linear-gradient(top, #1a1a1a 0%, #000000 100%); /* W3C */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1a1a1a', endColorstr='#000000', GradientType=0 ); /* IE6-9 */
  border:1px solid #272727;
- height:90px;
+ height:47px;
  
 }
 #entete h1{
-	top:30px;
-	text-align:center;
+	position:absolute;
+	left:50%;
+	margin-left:-58px;
+	font-size:27.25px;
+	background: url(../img/img_ui/logo.png) no-repeat;
+	width:115px;
+	height:28px;
+	text-indent:-9999px;
 }
 /*ACCUEIL*/
 .photo-accueil {
@@ -83,51 +89,51 @@ conteneur-image-accueil a {
 
 .retour {
 	background: #2a2a2a; /* Old browsers */
-	background: url(../img/img_ui/back_arrow.png) no-repeat center center, -moz-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* FF3.6+ */
-	background: url(../img/img_ui/back_arrow.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #000000)); /* Chrome,Safari4+ */
-	background: url(../img/img_ui/back_arrow.png) no-repeat center center, -webkit-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Chrome10+,Safari5.1+ */
-	background: url(../img/img_ui/back_arrow.png) no-repeat center center, -o-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Opera 11.10+ */
-	background: url(../img/img_ui/back_arrow.png) no-repeat center center, -ms-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* IE10+ */
-	background: url(../img/img_ui/back_arrow.png) no-repeat center center, linear-gradient(top, #2a2a2a 0%, #000000 100%); /* W3C */
+	background: url(../img/img_ui/ico-backMenu.png) no-repeat center center, -moz-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* FF3.6+ */
+	background: url(../img/img_ui/ico-backMenu.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #000000)); /* Chrome,Safari4+ */
+	background: url(../img/img_ui/ico-backMenu.png) no-repeat center center, -webkit-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Chrome10+,Safari5.1+ */
+	background: url(../img/img_ui/ico-backMenu.png) no-repeat center center, -o-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Opera 11.10+ */
+	background: url(../img/img_ui/ico-backMenu.png) no-repeat center center, -ms-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* IE10+ */
+	background: url(../img/img_ui/ico-backMenu.png) no-repeat center center, linear-gradient(top, #2a2a2a 0%, #000000 100%); /* W3C */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', endColorstr='#000000', GradientType=0 ); /* IE6-9 */
- top:5px;
+ top:7px;
  left:2%;
 }
 .map {
 	background: #2a2a2a; /* Old browsers */
-	background: url(../img/img_ui/pinPoint.png) no-repeat center center, -moz-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* FF3.6+ */
-	background: url(../img/img_ui/pinPoint.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #000000)); /* Chrome,Safari4+ */
-	background: url(../img/img_ui/pinPoint.png) no-repeat center center, -webkit-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Chrome10+,Safari5.1+ */
-	background: url(../img/img_ui/pinPoint.png) no-repeat center center, -o-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Opera 11.10+ */
-	background: url(../img/img_ui/pinPoint.png) no-repeat center center, -ms-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* IE10+ */
-	background: url(../img/img_ui/pinPoint.png) no-repeat center center, linear-gradient(top, #2a2a2a 0%, #000000 100%); /* W3C */
+	background: url(../img/img_ui/ico-pinPointMenu.png) no-repeat center center, -moz-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* FF3.6+ */
+	background: url(../img/img_ui/ico-pinPointMenu.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #000000)); /* Chrome,Safari4+ */
+	background: url(../img/img_ui/ico-pinPointMenu.png) no-repeat center center, -webkit-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Chrome10+,Safari5.1+ */
+	background: url(../img/img_ui/ico-pinPointMenu.png) no-repeat center center, -o-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Opera 11.10+ */
+	background: url(../img/img_ui/ico-pinPointMenu.png) no-repeat center center, -ms-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* IE10+ */
+	background: url(../img/img_ui/ico-pinPointMenu.png) no-repeat center center, linear-gradient(top, #2a2a2a 0%, #000000 100%); /* W3C */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', endColorstr='#000000', GradientType=0 ); /* IE6-9 */
- top:5px;
+ top:7px;
  right:20%;
 }
 .liste {
 	background: #2a2a2a; /* Old browsers */
-	background: url(../img/img_ui/liste.png) no-repeat center center, -moz-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* FF3.6+ */
-	background: url(../img/img_ui/back_arrow.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #000000)); /* Chrome,Safari4+ */
-	background: url(../img/img_ui/liste.png) no-repeat center center, -webkit-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Chrome10+,Safari5.1+ */
-	background: url(../img/img_ui/liste.png) no-repeat center center, -o-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Opera 11.10+ */
-	background: url(../img/img_ui/liste.png) no-repeat center center, -ms-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* IE10+ */
-	background: url(../img/img_ui/liste.png) no-repeat center center, linear-gradient(top, #2a2a2a 0%, #000000 100%); /* W3C */
+	background: url(../img/img_ui/ico-list.png) no-repeat center center, -moz-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* FF3.6+ */
+	background: url(../img/img_ui/ico-list.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #000000)); /* Chrome,Safari4+ */
+	background: url(../img/img_ui/ico-list.png) no-repeat center center, -webkit-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Chrome10+,Safari5.1+ */
+	background: url(../img/img_ui/ico-list.png) no-repeat center center, -o-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Opera 11.10+ */
+	background: url(../img/img_ui/ico-list.png) no-repeat center center, -ms-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* IE10+ */
+	background: url(../img/img_ui/ico-list.png) no-repeat center center, linear-gradient(top, #2a2a2a 0%, #000000 100%); /* W3C */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', endColorstr='#000000', GradientType=0 ); /* IE6-9 */
-  top:5px;
- right:20%;
+  top:7px;
+ right:12%;
 
 }
 .recherche {
 	background: #2a2a2a; /* Old browsers */
-	background: url(../img/img_ui/search.png) no-repeat center center, -moz-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* FF3.6+ */
-	background: url(../img/img_ui/search.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #000000)); /* Chrome,Safari4+ */
-	background: url(../img/img_ui/search.png) no-repeat center center, -webkit-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Chrome10+,Safari5.1+ */
-	background: url(../img/img_ui/search.png) no-repeat center center, -o-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Opera 11.10+ */
-	background: url(../img/img_ui/search.png) no-repeat center center, -ms-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* IE10+ */
-	background: url(../img/img_ui/search.png) no-repeat center center, linear-gradient(top, #2a2a2a 0%, #000000 100%); /* W3C */
+	background: url(../img/img_ui/ico-loupeMenu.png) no-repeat center center, -moz-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* FF3.6+ */
+	background: url(../img/img_ui/ico-loupeMenu.png) no-repeat center center, -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2a2a2a), color-stop(100%, #000000)); /* Chrome,Safari4+ */
+	background: url(../img/img_ui/ico-loupeMenu.png) no-repeat center center, -webkit-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Chrome10+,Safari5.1+ */
+	background: url(../img/img_ui/ico-loupeMenu.png) no-repeat center center, -o-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* Opera 11.10+ */
+	background: url(../img/img_ui/ico-loupeMenu.png) no-repeat center center, -ms-linear-gradient(top, #2a2a2a 0%, #000000 100%); /* IE10+ */
+	background: url(../img/img_ui/ico-loupeMenu.png) no-repeat center center, linear-gradient(top, #2a2a2a 0%, #000000 100%); /* W3C */
  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2a2a2a', endColorstr='#000000', GradientType=0 ); /* IE6-9 */
-  top:5px;
+  top:7px;
  right:2%;
 }
 .bouton {
@@ -144,9 +150,9 @@ conteneur-image-accueil a {
 	border-radius:3px;
 	text-indent:-9999px;
 	display:block;
-	width:15%;
-	max-width:80px;
-	height:62px;
+	width:10%;
+	max-width:40px;
+	height:30px;
 	position:absolute;
 }
 /* SYLVAIN */
