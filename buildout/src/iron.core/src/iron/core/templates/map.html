@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+
+{% block maincontent %}
+
+    {% for e in evenements %}
+	
+	<script src="{{STATIC_URL}}/js/mapUtils.js"></script>
+	<script src="{{STATIC_URL}}/js/OpenLayers-2.11/OpenLayers.js"></script>
+	<script src="{{STATIC_URL}}/js/customOLClass/ArrondKML.js"></script>
+	<script src="{{STATIC_URL}}/js/customOLClass/QuartKML.js"></script>
+	
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?v=3.4&sensor=false"></script>
+	
+	<script>
+		var mapObject = {
+                layers : {
+                    kmlArrondLayer : null,
+                    kmlQuartLayer : null,
+                    geolocateLayer : null,
+                    eventLayer : null
+                },
+                map : null
+            };
+
+            var geolocateObject;
+            var firstGeolocation;
+
+            var qsParm = new Array();
+            qsParm['type'] = "none";
+            qsParm['field'] = "none";
+            qsParm['geocode'] = false;
+            qs();
+			
+			init();
+	</script>
+	
+	<div data-role="content" id="map">
+		{{e.LATITUDE}}
+		{{e.LONGITUDE}}
+    </div>
+    {% endfor %}
+
+{% endblock %}

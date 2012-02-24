@@ -43,7 +43,9 @@ class Evenement(models.Model):
 
         return self.DESCRIPTION_EVENEMENT[:MAX] + '...'
 
-
+    @models.permalink
+    def get_absolute_url(self):
+        return ('activite_view', (self.id,))
 
 '''
 <CATEGORIE_EVENEMENT>Activité familiale</CATEGORIE_EVENEMENT>

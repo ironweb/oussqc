@@ -7,6 +7,7 @@ from iron.core.models import Evenement, Categorie
 from django.db.models import Q
 
 from django.shortcuts import render_to_response
+from constantes import ZONES
 
 json = serializers.get_serializer("json")()
 
@@ -19,8 +20,13 @@ ARR = (
     'Sainte-Foy–Sillery–Cap-Rouge'
 )
 
+
 def home(request):
-    return render_to_response('home.html')
+    d = {}
+    qs_evenements = Evenement.objects.all().order_by('?')[:3]
+    d['evenements'] = qs_evenements
+    c = RequestContext(request, d)
+    return render_to_response('home.html', c)
 
 def category(request):
     qs = Categorie.objects.all().order_by('UID')
@@ -28,20 +34,21 @@ def category(request):
     c = RequestContext(request, d)
     return render_to_response('category.html', c)
 
-def results(request, mode='list'):
-    from django.conf import settings
-    d = {'settings' : settings}
+def results(request, mode='liste'):
+
+    d = {}
     qs_evenements = Evenement.objects.all()[:10]
     d['evenements'] = qs_evenements
     c = RequestContext(request, d)
-    return render_to_response('liste.html', c)
 
-def activite(request):
-    #from django.conf import settings
-    #d = {'settings' : settings}
-    c = RequestContext(request)
+    # liste ou map
+    return render_to_response(mode+'.html', c)
+
+def activite(request, event_id):
+    d = {}
+    d['evenement'] = Evenement.objects.get(id=event_id)
+    c = RequestContext(request, d)
     return render_to_response('activite.html', c)
-
 
 def search(request, categorie_id=None):
 
@@ -70,10 +77,15 @@ def search(request, categorie_id=None):
 
     d['evenements'] = qs_evenements
 
+    # le bouton "recherche" n'est pas pertinent si on est déjà dans la recherche
+    d['hide_search_button'] = qs_evenements
+
     for e in qs_evenements:
         print e
 
     c = RequestContext(request, d)
+
+    print c['STATIC_URL']
     
     return render_to_response('search.html', c)
 
@@ -119,6 +131,13 @@ def eventsearch(request):
     serializer = serializers.get_serializer("json")()
     data = serializer.serialize(evenements)
     return HttpResponse(data)
+
+
+def quartiers(request, arr_index):
+    arr_index = int(arr_index)
+    quartiers = ZONES[arr_index]
+    import json
+    data = json.dumps(quartiers)
 
 def eventradius(request):
 

@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 
 {% block maincontent %}
-    <div class="image-activite"><img src="{{STATIC_URL}}img/img_activite/placeHolder-FicheEvent_05.jpg"></div><h2 class="titre-fiche">Titre here</h2><p class="texte-fiche">Description de l'activité</p>
+    <div class="image-activite"><img src="{{STATIC_URL}}img/img_activite/placeHolder-FicheEvent_05.jpg"></div><h2 class="titre-fiche">{{evenement.TITRE_EVENEMENT}}</h2><p class="texte-fiche">{{evenement.DESCRIPTION_EVENEMENT}}</p>
 
 
 <div data-type="horizontal" data-role="controlgroup" class="suggestion">
