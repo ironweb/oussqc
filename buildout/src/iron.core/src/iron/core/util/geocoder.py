@@ -81,16 +81,42 @@ def update_location(evenement):
             if result is not None:
                 set_and_save_location(evenement, result)
 
+def update_attraction(attraction):
+
+    if attraction.ADRESSE is None or attraction.ADRESSE.strip() == "":
+        return None
+
+    result = find_location(attraction.ADRESSE)
+    if result is not None:
+        set_and_save_location(attraction, result)
+
 if __name__ == "__main__":
 
-    from iron.core.models import Evenement
+    import sys
+    from iron.core.models import Evenement, Attraction
 
-    evenements = Evenement.objects.all()
+    if len(sys.argv) <= 1:
+        print "Usage: %s MODE (mode: evenement or attraction)" % sys.argv[0]
+        sys.exit(1)
 
-    for e in evenements:
-        update_location(e)
-        print e.TITRE_EVENEMENT
-        print e.ADRESSE_EVENEMENT
-        print e.LATITUDE
-        print e.LONGITUDE
+    mode = sys.argv[1]
+
+    if mode == "evenement":
+        evenements = Evenement.objects.all()
+
+        for e in evenements:
+            update_location(e)
+            print e.TITRE_EVENEMENT
+            print e.ADRESSE_EVENEMENT
+            print e.LATITUDE
+            print e.LONGITUDE
+
+    elif mode == "attraction":
+
+        attractions = Attraction.objects.all()
+        for a in attractions:
+            update_attraction(a)
+            print a.NOM
+            print a.LATITUDE
+            print a.LONGITUDE
 
