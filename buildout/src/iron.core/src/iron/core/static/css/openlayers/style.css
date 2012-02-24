@@ -447,3 +447,35 @@ span.olGoogleAttribution.hybrid a, span.olGoogleAttribution.satellite a {
         background-image: -o-linear-gradient( #FDFDFD /*{c-bup-background-start}*/, #EEE /*{c-bup-background-end}*/);
         background-image: linear-gradient( #FDFDFD /*{c-bup-background-start}*/, #EEE /*{c-bup-background-end}*/);
 }
+
+/* iPad [landscape] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+	#openlayersMap{
+		width : 100%;
+		height : 678px;
+	}
+}
+
+/* iPad [portrait] */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+	#openlayersMap{
+		width : 100%;
+		height : 934px;
+	}
+}
+
+/* iPhone [landscape] */
+@media only screen and (max-device-width: 480px) and (orientation: landscape) {
+	#openlayersMap{
+		width : 100%;
+		height : 390px;
+	}
+}
+
+/* iPad [portrait] */
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+	#openlayersMap{
+		width : 100%;
+		height : 550px;
+	}
+}

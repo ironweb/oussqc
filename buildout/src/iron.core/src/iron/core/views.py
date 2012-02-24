@@ -49,28 +49,26 @@ def activite(request, event_id):
     c = RequestContext(request, d)
     return render_to_response('activite.html', c)
 
-def recherche(request, categorie_id=None):
+def recherche(request):
 
     qs = Categorie.objects.all().order_by('UID')
     qs_evenements = Evenement.objects.all()
 
-    d = {'categories' : qs, 'selected_categorie_id': categorie_id, 'ARR': ARR}
+    d = {'categories' : qs, 'ARR': ARR}
     d['page_id'] = 'recherche'
+
+    categorie_id = request.POST.get('categorie')
+
+    params = {}
+    if categorie_id:
+        params['categorie'] = categorie_id
+
+    #'selected_categorie_id': categorie_id, 
+
+
+    events = find_events(params=params)
+    print events
     
-    # par catégorie
-    if categorie_id is not None:
-
-        sql = """
-        SELECT * FROM core_evenement
-        WHERE id IN (SELECT evenement_id FROM core_evenement_CATEGORIES WHERE
-        categorie_id = %s)
-        """
-
-        qs_evenements = Evenement.objects.raw(sql, [int(categorie_id)])
-
-        d['selected_categorie_id'] = int(d['selected_categorie_id'])
-        #qs_evenements = qs_evenements.filter(CATEGORIE_EVENEMENT__id=categorie_id)
-
     d['evenements'] = qs_evenements
 
     # le bouton "recherche" n'est pas pertinent si on est déjà dans la recherche
@@ -82,7 +80,7 @@ def recherche(request, categorie_id=None):
 
 def find_events(params):
 
-    query = Evenement.objects
+    query = Evenement.objects.all()
 
     keyword_fields = [
         'TITRE_EVENEMENT',
@@ -93,6 +91,14 @@ def find_events(params):
 
     if 'district' in params:
         query = query.filter(NOM_ARRONDISSEMENT = params['district'])
+
+    print len(query)
+    if 'categorie' in params:
+        c = Categorie.objects.get(params['categorie'])
+
+        query = query.filter(CATEGORIES=c)
+    print len(query)
+        
 
     if 'keyword' in params:
 
