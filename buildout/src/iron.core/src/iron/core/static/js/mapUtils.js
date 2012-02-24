@@ -28,6 +28,7 @@ function init () {
     mapObject.layers.eventLayer = new Korem.Layer.Vector("KVector");
     mapObject.layers.eventLayer.clearClickHandlers();
     mapObject.layers.eventLayer.addFeatureClickHandler(null, function (evt) {
+		$(".olPopup").hide();
         evt.feature.popup.show();
     });
 

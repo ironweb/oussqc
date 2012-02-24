@@ -42,69 +42,32 @@ $( function(){
 });
 */
 
-var lastOrientation;
-
-$(document).bind("mobileinit", function(){
-	$(".map").live("pageshow", function( event, data ){
-		init();
-		resizeMap();
-		lastOrientation=window.orientation;
-		bindOrientationChange(resizeMap, true, null);
-	});
-	$(".map").live("pagehide", function( event, data ){
-		bindOrientationChange(resizeMap, false, null);
-	});
-});
-
 function saveSearchParam() {
-	localStorage.setItem('searchParam', JSON.stringify($("#searchForm").serializeArray()));
+	arrJSONParam = $("#searchForm").serializeArray();
+	localStorage.setItem('searchParam', JSON.stringify(arrJSONParam));
+	
+	for (i=0;i<arrJSONParam.length-1;i++) {
+		if (arrJSONParam[i].name=="distance" && parseInt(arrJSONParam[i].value)>0) {
+			$.mobile.showPageLoadingMsg;
+			if (navigator.geolocation) {
+				navigator.geolocation.getCurrentPosition(success, error);
+			} else {
+				alert("Fail");
+				$.mobile.hidePageLoadingMsg;
+				return false;
+			}
+		}
+	}
 }
 
-function bindOrientationChange(func, bind, namespace) {
-    var supportsOrientationChange = "onorientationchange" in window,
-    orientationEvent = supportsOrientationChange ? "orientationchange" : "resize";
-    if (namespace) orientationEvent = orientationEvent+namespace;
-    (bind) ? $(window).bind(orientationEvent, func) : (namespace) ? $(window).unbind(orientationEvent) : $(window).unbind(orientationEvent, func);
+function success (position) {
+	var lat = position.coords.latitude;
+	var lon = position.coords.longitude;
+	console.debug(lat + " " + lon);
 }
 
-function resizeMap() {
-			if (this.lastOrientation!=window.orientation) {
-                if (testMobile(/Android/i)) {
-                    // PLG : bug Android orientation change firing slower than iOS...
-                    setTimeout(updateSize,500);
-                } else {updateSize();}
-            }
-}
-
-function updateSize() {
-	var viewPortSize = getViewPortSize();
-    var extraHideUrlBar = 0;
-    if (window.orientation==0&&!window.navigator.standalone&&(testMobile(/iPhone/i)||testMobile(/iPod/i))) {
-        extraHideUrlBar=60;
-    }
-
-    $("#openlayersMap").css("width", viewPortSize.width+"px");
-    $("#openlayersMap").css("height", viewPortSize.height-$.mobile.activePage.find(":jqmData(role='footer')").outerHeight()-$.mobile.activePage.find(":jqmData(role='header')").outerHeight()+"px");
-    mapObject.map.updateSize();
-    //setTimeout(function() {window.scrollTo(0, 1);$j.mobile.fixedToolbars.show();if ($j(".ui-btn-mw-transparency").length!=0) changeOpacity();}, 100);
-}
-
-function getViewPortSize() {
-    var viewportwidth;
-    var viewportheight;
-    if (typeof window.innerWidth != 'undefined') {
-        viewportwidth = window.innerWidth, viewportheight = window.innerHeight
-    } else if (typeof document.documentElement != 'undefined' && typeof document.documentElement.clientWidth != 'undefined' && document.documentElement.clientWidth != 0) {
-        viewportwidth = document.documentElement.clientWidth, viewportheight = document.documentElement.clientHeight
-    } else {
-        viewportwidth = document.getElementsByTagName('body')[0].clientWidth, viewportheight = document.getElementsByTagName('body')[0].clientHeight
-    }
-    return {
-        width: viewportwidth,
-        height: viewportheight
-    };
-}
-
-function testMobile (type) {
-    return navigator.userAgent.match(type);
+function error () {
+	alert("Fail");
+	$.mobile.hidePageLoadingMsg;
+	return false;
 }
