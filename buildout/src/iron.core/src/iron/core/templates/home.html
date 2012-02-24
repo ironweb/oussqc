@@ -8,7 +8,7 @@
     <script src="{{STATIC_URL}}js/home.js"></script>
     <script src="{{STATIC_URL}}lib/AnythingSlider/css/anythingslider.css"></script>
     {% endcomment %}
-    <div id="slider" class="conteneur-image-accueil">
+    <div id="sliderLarge" class="conteneur-image-accueil">
 
         {% for e in EVENTGROUPS.0 %}
         <a href="/activite/{{e.id}}/">
@@ -23,7 +23,7 @@
     </div>
 
     <div class="ui-grid-a">
-        <div class="ui-block-a conteneur-image-accueil ">
+        <div id="sliderSmall1" class="ui-block-a conteneur-image-accueil ">
 
             {% for e in EVENTGROUPS.1 %}
             <a href="/activite/{{e.id}}/">
@@ -37,7 +37,7 @@
 
         </div>
 
-        <div class="ui-block-b conteneur-image-accueil ">
+        <div id="sliderSmall2" class="ui-block-b conteneur-image-accueil ">
             {% for e in EVENTGROUPS.2 %}
             <a href="/activite/{{e.id}}/">
             <span class="legende-accueil small">
@@ -49,6 +49,39 @@
             {% endfor %}
         </div>
     </div><!-- /grid-a -->
+	<script>
+		$(function(){
+			var random = new Array ();
+			for (var aleatoire = 0; aleatoire<= 2; aleatoire++) {
+				random[aleatoire] = Math.floor(Math.random()*10000+ 5000);
+			}
+			$('#sliderLarge').anythingSlider({
+				buildArrows         : false,      // If true, builds the forwards and backwards buttons
+				buildNavigation     : true,      // If true, builds a list of anchor links to link to each panel
+				buildStartStop      : false,
+				hashTags            : false,
+				autoPlay            : true,
+				delay               : random[0],
+				
+			});
+			$('#sliderSmall1').anythingSlider({
+				buildArrows         : false,      // If true, builds the forwards and backwards buttons
+				buildNavigation     : true,      // If true, builds a list of anchor links to link to each panel
+				buildStartStop      : false,
+				hashTags            : false,
+				autoPlay            : true,
+				delay               : random[1],
+			});
+			$('#sliderSmall2').anythingSlider({
+				buildArrows         : false,      // If true, builds the forwards and backwards buttons
+				buildNavigation     : true,      // If true, builds a list of anchor links to link to each panel
+				buildStartStop      : false,
+				hashTags            : false,
+				autoPlay            : true,
+				delay               : random[2],
+			});
+		});
+	</script>
     
 
 {% endblock %}

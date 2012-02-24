@@ -4,7 +4,7 @@
  */
 
 function init () {
-    mapObject.map = new OpenLayers.Map({div : 'map', controls: [
+    mapObject.map = new OpenLayers.Map({div : 'openlayersMap', controls: [
             new OpenLayers.Control.Attribution(),
             new OpenLayers.Control.TouchNavigation({
                 dragPanOptions: {
@@ -28,13 +28,13 @@ function init () {
     mapObject.layers.eventLayer = new Korem.Layer.Vector("KVector");
     mapObject.layers.eventLayer.clearClickHandlers();
     mapObject.layers.eventLayer.addFeatureClickHandler(null, function (evt) {
-        alert("goto Details with : " + evt.feature);
+        evt.feature.popup.show();
     });
 
     mapObject.layers.kmlArrondLayer = new OpenLayers.Layer.Vector("KML", {
             strategies: [new OpenLayers.Strategy.Fixed()],
             protocol: new OpenLayers.Protocol.HTTP({
-                    url: "ARROND.KML",
+                    url: "/ARROND.KML",
                     format: new OpenLayers.Format.ArrondKML({
                             extractStyles: true, 
                             extractAttributes: true,
@@ -46,7 +46,7 @@ function init () {
     mapObject.layers.kmlQuartLayer = new OpenLayers.Layer.Vector("KML", {
             strategies: [new OpenLayers.Strategy.Fixed()],
             protocol: new OpenLayers.Protocol.HTTP({
-                    url: "QUARTIER.KML",
+                    url: "/QUARTIERS.KML",
                     format: new OpenLayers.Format.QuartKML({
                             extractStyles: true, 
                             extractAttributes: true,
@@ -185,16 +185,25 @@ function findPoly(type, field, x,y) {
 }
 
 function qs() {
-        var query = window.location.search.substring(1);
-        var parms = query.split('&');
-        for (var i=0; i<parms.length; i++) {
-        var pos = parms[i].indexOf('=');
-        if (pos > 0) {
-            var key = parms[i].substring(0,pos);
-            var val = parms[i].substring(pos+1);
-            qsParm[key] = (val == "false") ? false : (val == "true") ? true : val;
-        }
-    }
+	arrJSONParam = $.parseJSON(localStorage.searchParam);
+	
+	for (i=0;i<arrJSONParam.length-1;i++) {
+		if (arrJSONParam[i].name=="arrondissement" && arrJSONParam[i].value!="") {
+			qsParm["type"] = "arrond";
+			qsParm["field"] = arrJSONParam[i].value;
+		}
+		if (arrJSONParam[i].name=="quartier" && arrJSONParam[i].value!="" && arrJSONParam[i].value!="#") {
+			qsParm["type"] = "quart";
+			qsParm["field"] = arrJSONParam[i].value;
+		}
+		if (arrJSONParam[i].name=="distance" && arrJSONParam[i].value>0) {
+			qsParm["geocode"] = true;
+			qsParm["distance"] = arrJSONParam[i].value;
+		}
+		if (arrJSONParam[i].name=="categorie" && arrJSONParam[i].value!="") {
+			qsParm["category"] = arrJSONParam[i].name;
+		}
+	}
 }
 
 function loadResult() {
@@ -204,15 +213,27 @@ function loadResult() {
         $.each(data, function(key, val) {
             if (val.model == "core.evenement") {
                 var lonlat = new OpenLayers.LonLat(val.fields.LONGITUDE,val.fields.LATITUDE).transform(new OpenLayers.Projection("EPSG:4326"), mapObject.map.getProjectionObject());
-
+				
+				popup = new OpenLayers.Popup("chicken",
+                   new OpenLayers.LonLat(val.fields.LONGITUDE,val.fields.LATITUDE).transform(new OpenLayers.Projection("EPSG:4326"), mapObject.map.getProjectionObject()),
+                   new OpenLayers.Size(200,200),
+                   "example popup",
+                   true,
+                   function(){this.hide();}
+				);
+				
+				mapObject.map.addPopup(popup);
+				
                 var markerEvents = new Korem.Feature.VMarker(lonlat.lon, lonlat.lat, {
                     icon: {
                         url: "img/event_marker.png",
                         width: 54/2,
                         height: 74/2
                     },
-                    popup: null
+                    popup: popup
                 });
+				
+				popup.hide();
                 
                 mapObject.layers.eventLayer.addFeatures([
                     markerEvents

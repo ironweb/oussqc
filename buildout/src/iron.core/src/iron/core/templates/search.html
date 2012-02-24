@@ -2,7 +2,7 @@
 
 {% block maincontent %}
 
-    <form action="/list/" method="post" id="searchForm" onsubmit="saveSearchParam();">
+    <form action="/liste/" method="post" id="searchForm" onsubmit="saveSearchParam();">
 
         <label for="quartier">Catégorie</label>
         <select name="categorie">
@@ -15,7 +15,7 @@
         <select name="arrondissement" size="1" id="arrondissement" onchange="loadQuartier(this);">
               <option value="#">Choisissez un arrondissement</option>
               {% for arr in ARR %}
-              <option value="{{forloop.counter0}}">{{arr}}</option>
+              <option value="{{arr}}">{{arr}}</option>
               {% endfor %}
         </select>
         <label for="quartier">Quartier</label>

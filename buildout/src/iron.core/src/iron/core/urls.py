@@ -13,4 +13,7 @@ urlpatterns = patterns('iron.core.views',
 
     ('^quartiers/(\d+)/$', 'quartiers'),
 
+    ('^QUARTIERS.KML$', 'QUARTIERS'),
+    ('^ARROND.KML$', 'ARROND'),
+
 )

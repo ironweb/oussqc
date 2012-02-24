@@ -20,17 +20,15 @@
             qsParm['type'] = "none";
             qsParm['field'] = "none";
             qsParm['geocode'] = false;
+			qsParm['distance'] = 0;
+			qsParm['categorie'] = 0;
             qs();
 	</script>
 	
-	<div data-role="content" id="map">
-
-    {% for e in evenements %}
+	<div data-role="content" style="padding:0;">
 	
-		{{e.LATITUDE}}
-		{{e.LONGITUDE}}
-    
-    {% endfor %}
+		<div id="openlayersMap" style="width : 100%; height : 300px;">
+		</div>
 	
 	</div>
 
