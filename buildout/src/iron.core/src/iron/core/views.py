@@ -110,6 +110,20 @@ def find_events(params):
 
     return evenements
 
+
+def resultats(request, mode='liste'):
+
+    d = {}
+    d['page_id'] = mode
+    d['result_display_mode'] = {'liste':'map', 'map':'liste'}[mode]
+
+    qs_evenements = Evenement.objects.all()[:10]
+    d['evenements'] = qs_evenements
+    c = RequestContext(request, d)
+
+    # liste ou map
+    return render_to_response(mode+'.html', c)
+
 def eventsearch(request):
 
     evenements = find_events(request.GET)
@@ -151,7 +165,6 @@ def eventradius(request):
     serializer = serializers.get_serializer("json")()
     data = serializer.serialize(evenements)
     return HttpResponse(data)
-
 
 def QUARTIERS(request):
     f = open('/home/sylvain/rouges-lm/data/quartier_formatted.kml', 'r')
