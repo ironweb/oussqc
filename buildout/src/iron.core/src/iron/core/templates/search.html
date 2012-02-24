@@ -24,19 +24,9 @@
         </select>
 
         <label for="quartier">Près de moi</label>
-        <select name="distance" id="quartier">
-            <option value="0">Choisissez une distance</option>
-            <option value="1">1 km</option>
-            <option value="2">2 km</option>
-            <option value="5">5 km</option>
-            <option value="10">10 km</option>
-        </select>
-
+       <input type="range" name="distance" id="quartier" value="0" min="0" max="10" step="1" />
         
-        {% comment %}
-        <input type="text" class="expand input-text" value="" name="keywords" placeholder="Entrez un mot clef">
-        {% endcomment %}
-        <input type="submit" name="rechercher" id="rechercher" value="Rechercher">
+        <input type="submit"data-theme="b" name="rechercher" id="rechercher" value="Rechercher" onclick="saveSearchParam();">
     </form>
 
 {% endblock %}
