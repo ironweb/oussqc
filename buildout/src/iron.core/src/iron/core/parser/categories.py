@@ -7,9 +7,11 @@ class CategoryParser(object):
 
     def categorie_evenements(self, evenements):
 
-        categories = set([
-            e['categorie'] for e in evenements
-        ])
+        categories = set()
+
+        for evenement in evenements:
+            for c in evenement['categories']:
+                categories.add(c)
 
         return categories
 
