@@ -172,7 +172,6 @@ def eventradius(request):
     data = serializer.serialize(evenements)
     return HttpResponse(data)
 
-
 def QUARTIERS(request):
     f = open('/home/sylvain/rouges-lm/data/quartier_formatted.kml', 'r')
     return HttpResponse(f.read())
