@@ -8,11 +8,12 @@ red.goBack = function(){
 }
 
 red.getCurPage = function(){
-    return $('body > div').attr('class').split(' ')[0];
+    return $('.ui-page-active').attr('class').split(' ')[0];
 }
 
 red.getPrevPage = function(){
     var curPage = red.getCurPage();
+    console.log(curPage);
     switch(curPage){
         case 'recherche':
             return '/';
@@ -33,16 +34,17 @@ red.getPrevPage = function(){
 }
 
 
+/*
 $( function(){
 
     $('#boutonHeaderBack').click( function(){
-
         var prevPage = red.getPrevPage();
         window.location.href = prevPage;
 
     });
 
 });
+*/
 
 var lastOrientation;
 
@@ -55,7 +57,6 @@ $(document).bind("mobileinit", function(){
 	});
 	$(".map").live("pagehide", function( event, data ){
 		bindOrientationChange(resizeMap, false, null);
-	});
 });
 
 function saveSearchParam() {
