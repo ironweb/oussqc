@@ -45,6 +45,42 @@ class EvenementParser(qcparser.SimpleParser):
 
             transformed.append(element)
 
+        grouping = self.regroup_evenements(transformed)
+        return self.merge_evenements(grouping)
+
+    def regroup_evenements(self, evenements):
+
+        grouping = {}
+
+        for evenement in evenements:
+
+            uid = (
+                    evenement['titre'] +
+                    evenement['debut'] +
+                    evenement['fin']
+                )
+
+            group = grouping.setdefault( uid, [] )
+            group.append(evenement)
+
+        return grouping
+
+    def merge_evenements(self, grouping):
+
+        transformed = []
+
+        for entries in grouping.values():
+
+            categories = []
+            for entry in entries:
+                categories.append( entry['categorie'] )
+
+            entry = entries.pop()
+            del entry['categorie']
+            entry['categories'] = categories
+
+            transformed.append(entry)
+
         return transformed
 
     def get_telephones(self, node):
@@ -68,6 +104,7 @@ if __name__ == "__main__":
     category_parser = CategoryParser()
 
     evenements = parser.parse( f.read() )
+
     categories = category_parser.categorie_evenements(evenements)
 
     for category in categories:
@@ -95,7 +132,6 @@ if __name__ == "__main__":
         E.COMPLEMENT_LIEU_EVENEMENT = e['complement_lieu']
         E.ADRESSE_EVENEMENT = e['adresse']
         E.NOM_ARRONDISSEMENT = e['arondissement']
-        E.CATEGORIE_EVENEMENT = Categorie.objects.get(UID=e['categorie'])
 
         if len(e['telephones']) > 0:
             E.TEL1_EVENEMENT = e['telephones'][0]
@@ -103,8 +139,15 @@ if __name__ == "__main__":
         if len(e['telephones']) > 1:
             E.TEL2_EVENEMENT = e['telephones'][1]
 
-        print e
         E.save()
+
+        for categorie in e['categories']:
+            E.CATEGORIES.add( Categorie.objects.get(UID=categorie) )
+
+        E.save()
+
+        print e
+
 
 
 '''
