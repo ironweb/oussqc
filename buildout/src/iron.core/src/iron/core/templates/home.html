@@ -10,6 +10,7 @@
     {% endcomment %}
     <div id="slider" class="conteneur-image-accueil">
 
+        {% for e in EVENTGROUPS.0 %}
         <a href="/activite/{{e.id}}/">
         <span class="legende-accueil">
             <p>{{e.TITRE_EVENEMENT}}</p>
@@ -17,27 +18,35 @@
         </span>
         <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" />
         </a>
+        {% endfor %}
 
     </div>
 
     <div class="ui-grid-a">
         <div class="ui-block-a conteneur-image-accueil ">
-            <a href="/activite/{{evenements.1.id}}/">
+
+            {% for e in EVENTGROUPS.1 %}
+            <a href="/activite/{{e.id}}/">
             <span class="legende-accueil small">
-            <p>{{evenements.1.TITRE_EVENEMENT}}</p>
-            <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png"></span>
-            <img class="photo-accueil haut"src="{{STATIC_URL}}/img/img_activite/crowdJaune.jpg">
+                <p>{{e.TITRE_EVENEMENT}}</p>
+                <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png">
+            </span>
+            <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" />
             </a>
+            {% endfor %}
+
         </div>
 
         <div class="ui-block-b conteneur-image-accueil ">
-            <a href="/activite/{{evenements.2.id}}/">
+            {% for e in EVENTGROUPS.2 %}
+            <a href="/activite/{{e.id}}/">
             <span class="legende-accueil small">
-            <p>{{evenements.2.TITRE_EVENEMENT}}</p>
-            <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png">
-            </span><a href="/activite/{{evenements.2.id}}/">
-            <img class="photo-accueil haut"src="{{STATIC_URL}}/img/img_activite/crowdBleu.jpg"></a>
+                <p>{{e.TITRE_EVENEMENT}}</p>
+                <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png">
+            </span>
+            <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" />
             </a>
+            {% endfor %}
         </div>
     </div><!-- /grid-a -->
     
