@@ -2,14 +2,22 @@
 
 {% block maincontent %}
 
-    <div class="conteneur-image-accueil">
-        <a href="/activite/{{evenements.0.id}}/">
+    {% comment %}
+    <script src="{{STATIC_URL}}lib/AnythingSlider/js/jquery.anythingslider.min.js"></script>
+    <script src="{{STATIC_URL}}lib/AnythingSlider/js/jquery.anythingslider.fx.min.js"></script>
+    <script src="{{STATIC_URL}}js/home.js"></script>
+    <script src="{{STATIC_URL}}lib/AnythingSlider/css/anythingslider.css"></script>
+    {% endcomment %}
+    <div id="slider" class="conteneur-image-accueil">
+
+        <a href="/activite/{{e.id}}/">
         <span class="legende-accueil">
-            <p>{{evenements.0.TITRE_EVENEMENT}}</p>
+            <p>{{e.TITRE_EVENEMENT}}</p>
             <img src="{{STATIC_URL}}/img/img_ui/strock-arrow.png">
         </span>
         <img class="photo-accueil" src="{{STATIC_URL}}/img/img_activite/bike.jpg" />
         </a>
+
     </div>
 
     <div class="ui-grid-a">

@@ -20,11 +20,11 @@ ARR = (
     'Sainte-Foy–Sillery–Cap-Rouge'
 )
 
-
 def home(request):
     d = {}
     qs_evenements = Evenement.objects.all().order_by('?')[:3]
     d['evenements'] = qs_evenements
+    d['e'] = qs_evenements[0]
     c = RequestContext(request, d)
     return render_to_response('home.html', c)
 
