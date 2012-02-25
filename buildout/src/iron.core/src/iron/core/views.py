@@ -173,11 +173,11 @@ def eventradius(request):
     return HttpResponse(data)
 
 def QUARTIERS(request):
-    f = open('/home/sylvain/rouges-lm/data/quartier_formatted.kml', 'r')
+    f = open('/home/rouge/rouges/data/quartier_formatted.kml', 'r')
     return HttpResponse(f.read())
 
 def ARROND(request):
-    f = open('/home/sylvain/rouges-lm/data/ARROND.KML', 'r')
+    f = open('/home/rouge/rouges/data/ARROND.KML', 'r')
     return HttpResponse(f.read())
 
 def quartiers(request, arr_index):

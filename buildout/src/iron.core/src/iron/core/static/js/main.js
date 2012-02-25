@@ -42,32 +42,45 @@ $( function(){
 });
 */
 
+$(document).bind("mobileinit", function(){
+  $(".map").live("pageshow", function() {
+	init();
+  })
+});
+
 function saveSearchParam() {
 	arrJSONParam = $("#searchForm").serializeArray();
 	localStorage.setItem('searchParam', JSON.stringify(arrJSONParam));
 	
-	for (i=0;i<arrJSONParam.length-1;i++) {
-		if (arrJSONParam[i].name=="distance" && parseInt(arrJSONParam[i].value)>0) {
-			$.mobile.showPageLoadingMsg;
-			if (navigator.geolocation) {
-				navigator.geolocation.getCurrentPosition(success, error);
-			} else {
-				alert("Fail");
-				$.mobile.hidePageLoadingMsg;
-				return false;
-			}
-		}
-	}
+	//for (i=0;i<arrJSONParam.length;i++) {
+	//	if (arrJSONParam[i].name=="distance" && parseInt(arrJSONParam[i].value)>0) {		
+			
+			// event.preventDefault();
+			// $.mobile.showPageLoadingMsg;
+			// if (navigator.geolocation) {
+				// navigator.geolocation.getCurrentPosition(success, error);
+			// } else {
+				// alert("Fail");
+				// $.mobile.hidePageLoadingMsg;
+			// }
+		// }
+	// }
+	// return false;
 }
 
 function success (position) {
 	var lat = position.coords.latitude;
 	var lon = position.coords.longitude;
-	console.debug(lat + " " + lon);
+	
+	$("#searchForm").submit();
 }
 
 function error () {
 	alert("Fail");
 	$.mobile.hidePageLoadingMsg;
-	return false;
+}
+
+function sendForm () {
+	event.preventDefault();
+	$("#searchForm").unbind('submit', this);
 }
