@@ -65,10 +65,9 @@ def recherche(request):
 
     #'selected_categorie_id': categorie_id, 
 
-
+    print params
     events = find_events(params=params)
-    print events
-    
+
     d['evenements'] = qs_evenements
 
     # le bouton "recherche" n'est pas pertinent si on est déjà dans la recherche
@@ -89,16 +88,11 @@ def find_events(params):
         'COMPLEMENT_LIEU_EVENEMENT',
     ]
 
-    if 'district' in params:
-        query = query.filter(NOM_ARRONDISSEMENT = params['district'])
+    if 'arrondissement' in params:
+        query = query.filter(NOM_ARRONDISSEMENT = params['arrondissement'])
 
-    print len(query)
     if 'categorie' in params:
-        c = Categorie.objects.get(params['categorie'])
-
-        query = query.filter(CATEGORIES=c)
-    print len(query)
-        
+        query = query.filter(CATEGORIES__UID=params['categorie'])
 
     if 'keyword' in params:
 
@@ -108,7 +102,7 @@ def find_events(params):
 
         condition = Q(**{field: term})
         for field in keyword_fields:
-            condition = condition | Q(**{field + "__contains":term})
+            condition = condition | Q(**{field + "__icontains":term})
 
         query = query.filter(condition)
 
@@ -123,8 +117,7 @@ def resultats(request, mode='liste'):
     d['page_id'] = mode
     d['result_display_mode'] = {'liste':'map', 'map':'liste'}[mode]
 
-    qs_evenements = Evenement.objects.all()[:10]
-    d['evenements'] = qs_evenements
+    d['evenements'] = find_events(request.POST)
     c = RequestContext(request, d)
 
     # liste ou map

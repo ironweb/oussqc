@@ -7,7 +7,7 @@
         <label for="quartier">Catégorie</label>
         <select name="categorie">
         {% for categorie in categories %}
-        <option value="">{{categorie.UID}}</option>
+        <option value="{{categorie.UID|escape}}">{{categorie.UID}}</option>
         {% endfor %}
         </select>
 
