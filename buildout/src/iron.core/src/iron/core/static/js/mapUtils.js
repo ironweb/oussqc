@@ -28,6 +28,7 @@ function init () {
     mapObject.layers.eventLayer = new Korem.Layer.Vector("KVector");
     mapObject.layers.eventLayer.clearClickHandlers();
     mapObject.layers.eventLayer.addFeatureClickHandler(null, function (evt) {
+		$(".olPopup").hide();
         evt.feature.popup.show();
     });
 
@@ -226,7 +227,7 @@ function loadResult() {
 				
                 var markerEvents = new Korem.Feature.VMarker(lonlat.lon, lonlat.lat, {
                     icon: {
-                        url: "/static/img/event_marker.png",
+                        url: "http://i.imgur.com/be829.png",
                         width: 38,
                         height: 52
                     },

@@ -8,6 +8,9 @@ h1, h2, .legende-accueil {
 	font-size:18px; /*a mettre en EM*/
 	color:#FFF;
 }
+.titre-activite, .titre-fiche {
+	color:#000;
+}
 .small {
 	font-size:17px; /*a mettre en EM*/
 }
@@ -61,27 +64,20 @@ h1, h2, .legende-accueil {
 	bottom:0;
 }
 .legende-accueil img {
-	float:right;
-	position:relative;
-	top:50%;
-	margin:-12px;
+	float: left;
+	position: relative;
+	top: 50%;
+	margin-top: -12px;
 	padding: 0 20px;
 }
 .legende-accueil p {
 	float:left;
 	padding:20px;
 	margin:0;
+        max-width: 400px
 }
 conteneur-image-accueil a {
 	text-decoration:none;
-}
-
-.double-slider {
-	position:relative;
-}
-.slider1wrapper {
-	position:absolute;
-	right:0;
 }
 
 
@@ -158,3 +154,4 @@ conteneur-image-accueil a {
 /* SYLVAIN */
 
 body.accueil #boutonHeaderBack {display:none;}
+

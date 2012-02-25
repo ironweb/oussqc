@@ -12,7 +12,7 @@
         </select>
 
         <label for="arrondissement">Arrondissement</label>
-        <select name="arrondissement" size="1" id="arrondissement" onchange="loadQuartier(this);">
+        <select name="arrondissement" size="1" id="arrondissement">
               <option value="#">Choisissez un arrondissement</option>
               {% for arr in ARR %}
               <option value="{{arr}}">{{arr}}</option>

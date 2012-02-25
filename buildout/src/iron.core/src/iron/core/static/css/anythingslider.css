@@ -9,33 +9,16 @@
   SET DEFAULT DIMENSIONS HERE
  *****************************/
 /* change the ID to match your slider */
-#sliderLarge {
-	width: 100%;
-	height: 155px;
-	list-style: none;
-	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
-	overflow-y: auto;
-	overflow-x: hidden;
-}
+#sliderLarge,
 #sliderSmall1 {
-	width: 50%;
-	height: 155px;
+	width: 100%;
+	height: 185px;
 	list-style: none;
 	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
 	overflow-y: auto;
 	overflow-x: hidden;
-		
 }
-#sliderSmall2 {
-	width: 50%;
-	height: 155px;
-	list-style: none;
-	/* Prevent FOUC (see FAQ page) and keep things readable if javascript is disabled */
-	overflow-y: auto;
-	overflow-x: hidden;
-	
 
-}
 
 /*****************
   SET COLORS HERE
