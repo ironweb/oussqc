@@ -117,3 +117,8 @@ class Attraction(models.Model):
     LATITUDE = models.DecimalField(null=True,decimal_places=8,max_digits=10)
     LONGITUDE = models.DecimalField(null=True,decimal_places=8,max_digits=10)
 
+class Quartier(models.Model):
+
+    NOM = models.CharField(max_length=100)
+    ARRONDISSEMENT = models.CharField(max_length=100)
+
