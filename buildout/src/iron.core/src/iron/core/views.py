@@ -63,9 +63,6 @@ def recherche(request):
     if categorie_id:
         params['categorie'] = categorie_id
 
-    #'selected_categorie_id': categorie_id, 
-
-    print params
     events = find_events(params=params)
 
     d['evenements'] = qs_evenements
