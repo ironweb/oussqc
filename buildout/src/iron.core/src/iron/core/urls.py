@@ -8,10 +8,10 @@ urlpatterns = patterns('iron.core.views',
     url('^map/$', 'resultats', {'mode': 'map'}, name='resultats_map'),
     url('^activite/(\d+)/$', 'activite', name='activite_fiche'),
 
-    (r"^evenements/$", 'evenements'),
+    #(r"^evenements/$", 'evenements'),
     (r"^evenements/search/$", 'eventsearch'),
 
-    ('^quartiers/(\d+)/$', 'quartiers'),
+    ('^quartiers/$', 'quartiers'),
 
     ('^QUARTIERS.KML$', 'QUARTIERS'),
     ('^ARROND.KML$', 'ARROND'),
