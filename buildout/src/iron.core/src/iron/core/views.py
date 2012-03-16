@@ -2,14 +2,15 @@
 from django.http import HttpResponse, HttpResponseBadRequest
 from django.core import serializers
 from django.template import RequestContext
-from iron.core.models import Evenement, Categorie
+from iron.core.models import Evenement, Categorie, Quartier
 
 from django.db.models import Q
 
 from django.shortcuts import render_to_response
 from constantes import ZONES
+import json
 
-json = serializers.get_serializer("json")()
+json_serializer = serializers.get_serializer("json")()
 
 ARR = (
     'Beauport',
@@ -86,7 +87,11 @@ def find_events(params):
     ]
 
     if 'arrondissement' in params:
-        query = query.filter(NOM_ARRONDISSEMENT = params['arrondissement'])
+
+        arrondissement = params['arrondissement']
+        if arrondissement.strip() != "" and arrondissement != "#":
+
+            query = query.filter(NOM_ARRONDISSEMENT = params['arrondissement'])
 
     if 'categorie' in params:
         query = query.filter(CATEGORIES__UID=params['categorie'])
@@ -124,8 +129,7 @@ def eventsearch(request):
 
     evenements = find_events(request.GET)
 
-    serializer = serializers.get_serializer("json")()
-    data = serializer.serialize(evenements)
+    data = json_serializer.serialize(evenements)
     return HttpResponse(data)
 
 def find_events_in_radius(longitude, latitude, km):
@@ -158,8 +162,7 @@ def eventradius(request):
 
     evenements = find_events_in_radius(latitude, longitude, km)
 
-    serializer = serializers.get_serializer("json")()
-    data = serializer.serialize(evenements)
+    data = json_serializer.serialize(evenements)
     return HttpResponse(data)
 
 def QUARTIERS(request):
@@ -170,11 +173,19 @@ def ARROND(request):
     f = open('/home/rouge/rouges/data/ARROND.KML', 'r')
     return HttpResponse(f.read())
 
-def quartiers(request, arr_index):
-    arr_index = int(arr_index)
-    quartiers = ZONES[arr_index]
-    import json
-    data = json.dumps(quartiers)
+def quartiers(request):
+
+    arrondissement = request.GET.get('arrondissement', '')
+
+    match = Quartier.objects.all()
+
+    if arrondissement.strip() != "":
+        match = match.filter(ARRONDISSEMENT=arrondissement)
+
+    names = [ q.NOM for q in match ]
+
+    data = json.dumps(names)
+    return HttpResponse(data)
 
 def greg_mess(request, event_id):
 

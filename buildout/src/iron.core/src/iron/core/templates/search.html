@@ -29,4 +29,30 @@
         <input type="submit"data-theme="b" name="rechercher" id="rechercher" value="Rechercher" onclick="saveSearchParam();">
     </form>
 
+    <script type="text/javascript">
+
+        $(function(){
+            $("#arrondissement").change(function(){
+
+                var liste = $(this);
+
+                console.debug(liste.val())
+
+                var quartiers = $.get( "{% url quartiers %}", {arrondissement: liste.val()},
+                    function(data){
+                        console.debug("response");
+                        liste.empty();
+                        $(data).each(function(i, el){
+                            console.debug("appending");
+                            liste.append(
+                                $("<option></option>")
+                                .val(el)
+                                .html(el));
+                        });
+                    });
+                });
+            });
+
+    </script>
+
 {% endblock %}
